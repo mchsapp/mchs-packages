@@ -1,0 +1,10 @@
+MCHS_PKG_HOMEPAGE=https://github.com/commonmark/cmark
+MCHS_PKG_DESCRIPTION="CommonMark parsing and rendering program"
+MCHS_PKG_LICENSE="BSD 2-Clause"
+MCHS_PKG_MAINTAINER="@mchs"
+MCHS_PKG_VERSION=0.30.2
+MCHS_PKG_SRCURL=https://github.com/commonmark/cmark/archive/refs/tags/$MCHS_PKG_VERSION.tar.gz
+MCHS_PKG_SHA256=6c7d2bcaea1433d977d8fed0b55b71c9d045a7cdf616e3cd2dce9007da753db3
+MCHS_PKG_AUTO_UPDATE=true
+MCHS_PKG_BREAKS="cmark-dev"
+MCHS_PKG_REPLACES="cmark-dev"

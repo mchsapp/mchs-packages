@@ -1,0 +1,9 @@
+MCHS_PKG_HOMEPAGE=http://www.schweikhardt.net/samefile/
+MCHS_PKG_DESCRIPTION="Finds files with identical contents, independent of file name"
+MCHS_PKG_LICENSE="BSD"
+MCHS_PKG_MAINTAINER="@mchs"
+MCHS_PKG_VERSION=2.15
+MCHS_PKG_REVISION=5
+MCHS_PKG_SRCURL=http://www.schweikhardt.net/samefile-$MCHS_PKG_VERSION.tar.gz
+MCHS_PKG_SHA256=26d322e3445ff7273867332311c33a90c8ef037cbd6b19d9468e1742833ea4b6
+MCHS_PKG_BUILD_IN_SRC=true

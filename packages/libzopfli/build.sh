@@ -1,0 +1,14 @@
+MCHS_PKG_HOMEPAGE=https://github.com/google/zopfli
+MCHS_PKG_DESCRIPTION="New zlib compatible compressor library"
+MCHS_PKG_LICENSE="Apache-2.0"
+MCHS_PKG_MAINTAINER="@mchs"
+MCHS_PKG_VERSION=1.0.3
+MCHS_PKG_REVISION=2
+MCHS_PKG_SRCURL=https://github.com/google/zopfli/archive/zopfli-${MCHS_PKG_VERSION}.tar.gz
+MCHS_PKG_SHA256=e955a7739f71af37ef3349c4fa141c648e8775bceb2195be07e86f8e638814bd
+MCHS_PKG_AUTO_UPDATE=true
+MCHS_PKG_AUTO_UPDATE_TAG_REGEXP="\d+\.\d+\.\d+"
+MCHS_PKG_DEPENDS="libc++"
+MCHS_PKG_BREAKS="libzopfli-dev"
+MCHS_PKG_REPLACES="libzopfli-dev"
+MCHS_PKG_EXTRA_CONFIGURE_ARGS="-DZOPFLI_BUILD_SHARED=ON"

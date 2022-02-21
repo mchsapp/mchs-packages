@@ -1,0 +1,20 @@
+MCHS_PKG_HOMEPAGE=https://www.midnight-commander.org/
+MCHS_PKG_DESCRIPTION="Midnight Commander - a powerful file manager"
+MCHS_PKG_LICENSE="GPL-2.0"
+MCHS_PKG_MAINTAINER="@mchs"
+MCHS_PKG_VERSION=4.8.27
+MCHS_PKG_REVISION=2
+MCHS_PKG_SRCURL=http://ftp.midnight-commander.org/mc-${MCHS_PKG_VERSION}.tar.xz
+MCHS_PKG_SHA256=31be59225ffa9920816e9a8b3be0ab225a16d19e4faf46890f25bdffa02a4ff4
+MCHS_PKG_DEPENDS="libandroid-support, libiconv, ncurses, glib, openssl, libssh2, zlib"
+MCHS_PKG_EXTRA_CONFIGURE_ARGS="
+ac_cv_lib_util_openpty=no
+ac_cv_path_PERL=$MCHS_PREFIX/bin/perl
+ac_cv_path_PYTHON=$MCHS_PREFIX/bin/python
+ac_cv_path_RUBY=$MCHS_PREFIX/bin/ruby
+ac_cv_path_UNZIP=$MCHS_PREFIX/bin/unzip
+ac_cv_path_ZIP=$MCHS_PREFIX/bin/zip
+--with-ncurses-includes=$MCHS_PREFIX/include
+--with-ncurses-libs=$MCHS_PREFIX/lib
+--with-screen=ncurses
+"

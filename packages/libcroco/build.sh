@@ -1,0 +1,11 @@
+MCHS_PKG_HOMEPAGE=https://gitlab.gnome.org/Archive/libcroco
+MCHS_PKG_DESCRIPTION="CSS parsing and manipulation library"
+MCHS_PKG_LICENSE="LGPL-2.0"
+MCHS_PKG_MAINTAINER="@mchs"
+MCHS_PKG_VERSION=0.6.13
+MCHS_PKG_REVISION=7
+MCHS_PKG_SRCURL=http://ftp.gnome.org/pub/gnome/sources/libcroco/${MCHS_PKG_VERSION:0:3}/libcroco-${MCHS_PKG_VERSION}.tar.xz
+MCHS_PKG_SHA256=767ec234ae7aa684695b3a735548224888132e063f92db585759b422570621d4
+MCHS_PKG_DEPENDS="glib,liblzma,libxml2"
+MCHS_PKG_BREAKS="libcroco-dev"
+MCHS_PKG_REPLACES="libcroco-dev"

@@ -1,0 +1,8 @@
+MCHS_PKG_HOMEPAGE=https://marlam.de/msmtp/
+MCHS_PKG_DESCRIPTION="Lightweight SMTP client"
+MCHS_PKG_LICENSE="GPL-3.0"
+MCHS_PKG_MAINTAINER="@mchs"
+MCHS_PKG_VERSION=1.8.19
+MCHS_PKG_SRCURL=https://marlam.de/msmtp/releases/msmtp-$MCHS_PKG_VERSION.tar.xz
+MCHS_PKG_SHA256=34a1e1981176874dbe4ee66ee0d9103c90989aa4dcdc4861e4de05ce7e44526b
+MCHS_PKG_DEPENDS="libgnutls, libidn2"

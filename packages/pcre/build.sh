@@ -1,0 +1,12 @@
+MCHS_PKG_HOMEPAGE=https://www.pcre.org
+MCHS_PKG_DESCRIPTION="Library implementing regular expression pattern matching using the same syntax and semantics as Perl 5"
+MCHS_PKG_LICENSE="BSD 3-Clause"
+MCHS_PKG_MAINTAINER="@mchs"
+MCHS_PKG_VERSION=8.45
+MCHS_PKG_REVISION=1
+MCHS_PKG_SRCURL=https://downloads.sourceforge.net/project/pcre/pcre/${MCHS_PKG_VERSION}/pcre-${MCHS_PKG_VERSION}.tar.bz2
+MCHS_PKG_SHA256=4dae6fdcd2bb0bb6c37b5f97c33c2be954da743985369cddac3546e3218bffb8
+MCHS_PKG_BREAKS="pcre-dev"
+MCHS_PKG_REPLACES="pcre-dev"
+MCHS_PKG_RM_AFTER_INSTALL="bin/pcretest share/man/man1/pcretest.1"
+MCHS_PKG_EXTRA_CONFIGURE_ARGS="--enable-cpp --enable-jit --enable-utf8 --enable-unicode-properties"

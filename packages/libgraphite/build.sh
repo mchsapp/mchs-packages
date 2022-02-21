@@ -1,0 +1,13 @@
+MCHS_PKG_HOMEPAGE=https://github.com/silnrsi/graphite
+MCHS_PKG_DESCRIPTION="Font system for multiple languages"
+MCHS_PKG_LICENSE="LGPL-2.0"
+MCHS_PKG_MAINTAINER="@mchs"
+MCHS_PKG_VERSION=1.3.14
+MCHS_PKG_REVISION=1
+MCHS_PKG_SRCURL=https://github.com/silnrsi/graphite/archive/${MCHS_PKG_VERSION}.tar.gz
+MCHS_PKG_SHA256=7a3b342c5681921ce2e0c2496509d30b5b078399d5a7bd2358f95166d57d91df
+MCHS_PKG_AUTO_UPDATE=true
+MCHS_PKG_DEPENDS="libc++"
+MCHS_PKG_BREAKS="libgraphite-dev"
+MCHS_PKG_REPLACES="libgraphite-dev"
+MCHS_PKG_RM_AFTER_INSTALL="bin/gr2fonttest"

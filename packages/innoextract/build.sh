@@ -1,0 +1,9 @@
+MCHS_PKG_HOMEPAGE=https://constexpr.org/innoextract/
+MCHS_PKG_DESCRIPTION="A tool to unpack installers created by Inno Setup"
+MCHS_PKG_LICENSE="ZLIB"
+MCHS_PKG_MAINTAINER="@mchs"
+MCHS_PKG_VERSION=1.9
+MCHS_PKG_REVISION=1
+MCHS_PKG_SRCURL=https://constexpr.org/innoextract/files/innoextract-${MCHS_PKG_VERSION}/innoextract-${MCHS_PKG_VERSION}.tar.gz
+MCHS_PKG_SHA256=6344a69fc1ed847d4ed3e272e0da5998948c6b828cb7af39c6321aba6cf88126
+MCHS_PKG_DEPENDS="libc++, boost, liblzma, libiconv"

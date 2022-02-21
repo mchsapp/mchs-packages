@@ -1,0 +1,12 @@
+MCHS_PKG_HOMEPAGE=https://github.com/jbeder/yaml-cpp
+MCHS_PKG_DESCRIPTION="A YAML parser and emitter in C++ matching the YAML 1.2 spec"
+MCHS_PKG_LICENSE="MIT"
+MCHS_PKG_MAINTAINER="@mchs"
+MCHS_PKG_VERSION=0.7.0
+MCHS_PKG_SRCURL=https://github.com/jbeder/yaml-cpp/archive/refs/tags/yaml-cpp-${MCHS_PKG_VERSION}.tar.gz
+MCHS_PKG_SHA256=43e6a9fcb146ad871515f0d0873947e5d497a1c9c60c58cb102a97b47208b7c3
+MCHS_PKG_DEPENDS="libc++"
+MCHS_PKG_EXTRA_CONFIGURE_ARGS="
+-DYAML_BUILD_SHARED_LIBS=ON
+-DINSTALL_GTEST=OFF
+"

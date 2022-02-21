@@ -1,0 +1,10 @@
+MCHS_PKG_HOMEPAGE=https://github.com/dosfstools/dosfstools
+MCHS_PKG_DESCRIPTION="DOS file system utilities"
+MCHS_PKG_LICENSE="GPL-2.0"
+MCHS_PKG_MAINTAINER="@mchs"
+MCHS_PKG_VERSION=4.2
+MCHS_PKG_SRCURL=https://github.com/dosfstools/dosfstools/releases/download/v${MCHS_PKG_VERSION}/dosfstools-${MCHS_PKG_VERSION}.tar.gz
+MCHS_PKG_SHA256=64926eebf90092dca21b14259a5301b7b98e7b1943e8a201c7d726084809b527
+MCHS_PKG_AUTO_UPDATE=true
+MCHS_PKG_DEPENDS="libiconv"
+MCHS_PKG_EXTRA_CONFIGURE_ARGS="--enable-compat-symlinks"

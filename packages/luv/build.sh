@@ -1,0 +1,22 @@
+MCHS_PKG_HOMEPAGE=https://github.com/luvit/luv
+MCHS_PKG_DESCRIPTION="Bare libuv bindings for lua"
+MCHS_PKG_LICENSE="Apache-2.0"
+MCHS_PKG_MAINTAINER="@mchs"
+MCHS_PKG_VERSION=1.43.0-0
+MCHS_PKG_SRCURL=https://github.com/luvit/luv/releases/download/$MCHS_PKG_VERSION/luv-$MCHS_PKG_VERSION.tar.gz
+MCHS_PKG_SHA256=567a6f3dcdcf8a9b54ddc57ffef89d1e950d72832b85ee81c8c83a9d4e0e9de2
+MCHS_PKG_AUTO_UPDATE=true
+MCHS_PKG_DEPENDS="libluajit, libuv"
+MCHS_PKG_EXTRA_CONFIGURE_ARGS="
+-DBUILD_MODULE=OFF
+-DBUILD_SHARED_LIBS=ON
+-DLUA_BUILD_TYPE=System
+-DLUAJIT_INCLUDE_DIR=$MCHS_PREFIX/include/luajit-2.1
+-DLUA_PACKAGE_DIR=$MCHS_PREFIX/lib/lua/5.1
+-DWITH_LUA_ENGINE=LuaJit
+-DWITH_SHARED_LIBUV=ON
+"
+
+mchs_step_pre_configure() {
+	export LDFLAGS+=" -L$MCHS_PREFIX/lib/lua/5.1"
+}

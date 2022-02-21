@@ -1,0 +1,10 @@
+MCHS_PKG_HOMEPAGE=https://sourceforge.net/projects/libuuid/
+MCHS_PKG_DESCRIPTION="Portable uuid C library"
+MCHS_PKG_LICENSE="BSD 3-Clause"
+MCHS_PKG_MAINTAINER="@mchs"
+MCHS_PKG_VERSION=1.0.3
+MCHS_PKG_REVISION=4
+MCHS_PKG_SRCURL=https://downloads.sourceforge.net/project/libuuid/libuuid-${MCHS_PKG_VERSION}.tar.gz
+MCHS_PKG_SHA256=46af3275291091009ad7f1b899de3d0cea0252737550e7919d17237997db5644
+MCHS_PKG_BREAKS="libuuid-dev"
+MCHS_PKG_REPLACES="libuuid-dev"

@@ -1,0 +1,11 @@
+MCHS_PKG_HOMEPAGE=https://github.com/imgflo/imgflo
+MCHS_PKG_DESCRIPTION="HTTP image processing server & Flowhub.io compatible runtime"
+MCHS_PKG_LICENSE="MIT"
+MCHS_PKG_MAINTAINER="@mchs"
+MCHS_PKG_VERSION=0.4.2
+MCHS_PKG_REVISION=7
+MCHS_PKG_SRCURL=https://github.com/imgflo/imgflo/archive/$MCHS_PKG_VERSION.tar.gz
+MCHS_PKG_SHA256=4dd5fc9d34f3cfc294fd69a14d50ed5401abeb829132f1b1ac316e28223fc393
+MCHS_PKG_AUTO_UPDATE=true
+MCHS_PKG_DEPENDS="gegl, libsoup, zlib"
+MCHS_PKG_BUILD_IN_SRC=true

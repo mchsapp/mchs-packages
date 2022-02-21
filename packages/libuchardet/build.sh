@@ -1,0 +1,9 @@
+MCHS_PKG_HOMEPAGE=https://www.freedesktop.org/wiki/Software/uchardet/
+MCHS_PKG_DESCRIPTION="An encoding detector library"
+MCHS_PKG_LICENSE="custom"
+MCHS_PKG_LICENSE_FILE="COPYING"
+MCHS_PKG_MAINTAINER="@mchs"
+MCHS_PKG_VERSION=0.0.7
+MCHS_PKG_SRCURL=https://www.freedesktop.org/software/uchardet/releases/uchardet-${MCHS_PKG_VERSION}.tar.xz
+MCHS_PKG_SHA256=3fc79408ae1d84b406922fa9319ce005631c95ca0f34b205fad867e8b30e45b1
+MCHS_PKG_DEPENDS="libc++"

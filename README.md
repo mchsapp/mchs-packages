@@ -1,2 +1,1 @@
-- 👋 Hi, I’m @mchsapp
-- 👀 I’m interested in programming...
+# Personal Use Purpose

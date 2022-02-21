@@ -1,0 +1,9 @@
+MCHS_PKG_HOMEPAGE=https://blogc.rgm.io/
+MCHS_PKG_DESCRIPTION="A blog compiler"
+MCHS_PKG_LICENSE="BSD 3-Clause"
+MCHS_PKG_MAINTAINER="Rafael Martins @rafaelmartins"
+MCHS_PKG_VERSION=0.20.1
+MCHS_PKG_SRCURL=https://github.com/blogc/blogc/releases/download/v$MCHS_PKG_VERSION/blogc-$MCHS_PKG_VERSION.tar.bz2
+MCHS_PKG_SHA256=0ecf95acbe9f90fc35986234c4feb8f860637a703cb50c7d0f054344ab9f6709
+MCHS_PKG_AUTO_UPDATE=true
+MCHS_PKG_EXTRA_CONFIGURE_ARGS="--disable-git-receiver --enable-make --enable-runserver --disable-tests --disable-valgrind"

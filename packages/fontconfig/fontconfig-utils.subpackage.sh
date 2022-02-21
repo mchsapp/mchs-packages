@@ -1,0 +1,3 @@
+MCHS_SUBPKG_INCLUDE="bin"
+MCHS_SUBPKG_DESCRIPTION="Fontconfig binaries"
+MCHS_SUBPKG_DEPENDS="libpng"

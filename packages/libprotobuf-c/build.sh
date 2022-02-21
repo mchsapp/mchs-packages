@@ -1,0 +1,12 @@
+MCHS_PKG_HOMEPAGE=https://github.com/protobuf-c/protobuf-c
+MCHS_PKG_DESCRIPTION="Protocol buffers C library"
+MCHS_PKG_LICENSE="BSD 3-Clause"
+MCHS_PKG_MAINTAINER="Henrik Grimler @Grimler91"
+MCHS_PKG_VERSION=1.3.3
+MCHS_PKG_REVISION=11
+MCHS_PKG_SRCURL=https://github.com/protobuf-c/protobuf-c/releases/download/v${MCHS_PKG_VERSION}/protobuf-c-${MCHS_PKG_VERSION}.tar.gz
+MCHS_PKG_SHA256=22956606ef50c60de1fabc13a78fbc50830a0447d780467d3c519f84ad527e78
+MCHS_PKG_AUTO_UPDATE=true
+MCHS_PKG_DEPENDS="libc++, libprotobuf, protobuf"
+MCHS_PKG_BREAKS="libprotobuf-c-dev"
+MCHS_PKG_REPLACES="libprotobuf-c-dev"

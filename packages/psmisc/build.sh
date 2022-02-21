@@ -1,0 +1,11 @@
+MCHS_PKG_HOMEPAGE=https://gitlab.com/psmisc/psmisc
+MCHS_PKG_DESCRIPTION="Some small useful utilities that use the proc filesystem"
+MCHS_PKG_LICENSE="GPL-2.0"
+MCHS_PKG_MAINTAINER="@mchs"
+MCHS_PKG_VERSION=23.4
+MCHS_PKG_SRCURL=https://fossies.org/linux/misc/psmisc-$MCHS_PKG_VERSION.tar.xz
+MCHS_PKG_SHA256=7f0cceeace2050c525f3ebb35f3ba01d618b8d690620580bdb8cd8269a0c1679
+MCHS_PKG_DEPENDS="ncurses"
+MCHS_PKG_ESSENTIAL=true
+MCHS_PKG_BUILD_IN_SRC=true
+MCHS_PKG_RM_AFTER_INSTALL="bin/pstree.x11"

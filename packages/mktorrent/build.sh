@@ -1,0 +1,10 @@
+MCHS_PKG_HOMEPAGE=https://github.com/Rudde/mktorrent
+MCHS_PKG_DESCRIPTION="command line utility to create BitTorrent metainfo files"
+MCHS_PKG_LICENSE="GPL-2.0"
+MCHS_PKG_MAINTAINER="@mchs"
+MCHS_PKG_VERSION=1.1
+MCHS_PKG_REVISION=3
+MCHS_PKG_SRCURL=https://github.com/Rudde/mktorrent/archive/v$MCHS_PKG_VERSION.tar.gz
+MCHS_PKG_SHA256=d0f47500192605d01b5a2569c605e51ed319f557d24cfcbcb23a26d51d6138c9
+MCHS_PKG_AUTO_UPDATE=true
+MCHS_PKG_BUILD_IN_SRC=true

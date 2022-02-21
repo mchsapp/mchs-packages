@@ -1,0 +1,19 @@
+MCHS_PKG_HOMEPAGE=https://mosquitto.org/
+MCHS_PKG_DESCRIPTION="MQTT library"
+MCHS_PKG_LICENSE="EPL-1.0"
+MCHS_PKG_MAINTAINER="Nathaniel Wesley Filardo @nwf"
+MCHS_PKG_VERSION=2.0.11
+MCHS_PKG_REVISION=4
+MCHS_PKG_SRCURL=https://mosquitto.org/files/source/mosquitto-${MCHS_PKG_VERSION}.tar.gz
+MCHS_PKG_SHA256=7b36a7198bce85cf31b132f5c6ee36dcf5dadf86fb768501eb1e11ce95d4f78a
+MCHS_PKG_DEPENDS="c-ares, libc++, libcap, libwebsockets, openssl"
+MCHS_PKG_BREAKS="libmosquitto-dev"
+MCHS_PKG_REPLACES="libmosquitto-dev"
+MCHS_PKG_EXTRA_CONFIGURE_ARGS="
+-DWITH_BUNDLED_DEPS=ON
+-DWITH_THREADING=ON
+-DWITH_TLS_PSK=OFF
+-DWITH_WEBSOCKETS=ON
+-DWITH_SRV=ON
+"
+MCHS_PKG_SERVICE_SCRIPT=("mosquitto" 'exec mosquitto 2>&1')

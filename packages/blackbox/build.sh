@@ -1,0 +1,13 @@
+MCHS_PKG_HOMEPAGE=https://github.com/StackExchange/blackbox
+MCHS_PKG_DESCRIPTION="Safely store secrets in Git/Mercurial/Subversion"
+MCHS_PKG_LICENSE="MIT"
+MCHS_PKG_MAINTAINER="@mchs"
+MCHS_PKG_VERSION=2.0.0
+MCHS_PKG_REVISION=2
+MCHS_PKG_SRCURL=https://github.com/StackExchange/blackbox/archive/v${MCHS_PKG_VERSION}.tar.gz
+MCHS_PKG_SHA256=0a8fee39dc46436472528ea3a5743c42ebefc068519545fe6fca57041f42deae
+MCHS_PKG_DEPENDS="gnupg"
+MCHS_PKG_SUGGESTS="git, subversion"
+MCHS_PKG_PLATFORM_INDEPENDENT=true
+MCHS_PKG_BUILD_IN_SRC=true
+MCHS_PKG_MAKE_INSTALL_TARGET="copy-install"

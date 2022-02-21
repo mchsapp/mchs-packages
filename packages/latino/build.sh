@@ -1,0 +1,10 @@
+MCHS_PKG_HOMEPAGE=https://www.lenguajelatino.org/
+MCHS_PKG_DESCRIPTION="Lenguaje de programación de código abierto para latinos y de habla hispana."
+MCHS_PKG_LICENSE="MIT"
+MCHS_PKG_MAINTAINER="@mchs"
+MCHS_PKG_VERSION=1.3.1
+MCHS_PKG_SRCURL=https://github.com/primitivorm/latino-mchs/archive/v${MCHS_PKG_VERSION}.tar.gz
+MCHS_PKG_SHA256=7c67875a1db1c1180a7579545d8981c77444cba99c5d4b46664889732765608c
+MCHS_PKG_AUTO_UPDATE=true
+MCHS_PKG_DEPENDS="readline, pcre2"
+MCHS_PKG_FORCE_CMAKE=true

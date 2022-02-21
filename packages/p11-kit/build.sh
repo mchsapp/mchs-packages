@@ -1,0 +1,10 @@
+MCHS_PKG_HOMEPAGE="https://p11-glue.github.io/p11-glue/p11-kit.html"
+MCHS_PKG_DESCRIPTION="Provides a way to load and enumerate PKCS#11 modules"
+MCHS_PKG_LICENSE="BSD 3-Clause"
+MCHS_PKG_MAINTAINER="@leapofazzam123"
+MCHS_PKG_VERSION=0.24.0
+MCHS_PKG_REVISION=3
+MCHS_PKG_SRCURL="https://github.com/p11-glue/p11-kit/releases/download/$MCHS_PKG_VERSION/p11-kit-$MCHS_PKG_VERSION.tar.xz"
+MCHS_PKG_SHA256="81e6140584f635e4e956a1b93a32239acf3811ff5b2d3a5c6094e94e99d2c685"
+MCHS_PKG_DEPENDS="gettext, libffi, libtasn1"
+MCHS_PKG_EXTRA_CONFIGURE_ARGS="--without-trust-paths --disable-static"

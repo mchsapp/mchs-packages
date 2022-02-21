@@ -1,0 +1,11 @@
+MCHS_PKG_HOMEPAGE=http://www.catb.org/~esr/greed/
+MCHS_PKG_DESCRIPTION="Game where you try to eat as much as possible of the board before munching yourself into a corner"
+MCHS_PKG_LICENSE="GPL-2.0"
+MCHS_PKG_MAINTAINER="@mchs"
+MCHS_PKG_VERSION=4.2
+MCHS_PKG_REVISION=2
+MCHS_PKG_SRCURL=http://www.catb.org/~esr/greed/greed-${MCHS_PKG_VERSION}.tar.gz
+MCHS_PKG_SHA256=702bc0314ddedb2ba17d4b55d873384a1606886e8d69f35ce67f6e3024a8d3fd
+MCHS_PKG_DEPENDS="ncurses"
+MCHS_PKG_BUILD_IN_SRC=true
+MCHS_PKG_GROUPS="games"

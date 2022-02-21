@@ -1,0 +1,10 @@
+MCHS_PKG_HOMEPAGE=https://www.gnu.org/software/stow/
+MCHS_PKG_DESCRIPTION="Tool for managing the installation of multiple software packages into a single directory"
+MCHS_PKG_LICENSE="GPL-2.0"
+MCHS_PKG_MAINTAINER="@mchs"
+MCHS_PKG_VERSION=2.3.1
+MCHS_PKG_SRCURL=https://fossies.org/linux/misc/stow-$MCHS_PKG_VERSION.tar.gz
+MCHS_PKG_SHA256=09d5d99671b78537fd9b2c0b39a5e9761a7a0e979f6fdb7eabfa58ee45f03d4b
+MCHS_PKG_DEPENDS="perl"
+MCHS_PKG_BUILD_IN_SRC=true
+MCHS_PKG_PLATFORM_INDEPENDENT=true

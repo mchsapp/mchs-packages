@@ -1,0 +1,12 @@
+MCHS_PKG_HOMEPAGE=http://www.capstone-engine.org/
+MCHS_PKG_DESCRIPTION="Lightweight multi-platform, multi-architecture disassembly framework"
+MCHS_PKG_LICENSE="BSD"
+MCHS_PKG_MAINTAINER="@mchs"
+MCHS_PKG_VERSION=4.0.2
+MCHS_PKG_REVISION=1
+MCHS_PKG_SRCURL=https://github.com/aquynh/capstone/archive/$MCHS_PKG_VERSION.tar.gz
+MCHS_PKG_SHA256=7c81d798022f81e7507f1a60d6817f63aa76e489aa4e7055255f21a22f5e526a
+MCHS_PKG_AUTO_UPDATE=true
+MCHS_PKG_BREAKS="capstone-dev"
+MCHS_PKG_REPLACES="capstone-dev"
+MCHS_PKG_EXTRA_CONFIGURE_ARGS="-DINSTALL_LIB_DIR=$MCHS_PREFIX/lib"

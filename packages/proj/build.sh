@@ -1,0 +1,12 @@
+MCHS_PKG_HOMEPAGE=https://proj.org
+MCHS_PKG_DESCRIPTION="Generic coordinate transformation software"
+MCHS_PKG_LICENSE="MIT"
+MCHS_PKG_MAINTAINER="Henrik Grimler @Grimler91"
+MCHS_PKG_VERSION=8.1.1
+MCHS_PKG_REVISION=2
+MCHS_PKG_SRCURL=https://github.com/OSGeo/proj.4/archive/${MCHS_PKG_VERSION}.tar.gz
+MCHS_PKG_SHA256=6c6f2928d00798d576eca2b4c9fddefeebb052db032147351dc9279371ec7d25
+MCHS_PKG_DEPENDS="libc++, libsqlite, sqlite, libtiff, libcurl"
+MCHS_PKG_BREAKS="proj-dev"
+MCHS_PKG_REPLACES="proj-dev"
+MCHS_PKG_GROUPS="science"

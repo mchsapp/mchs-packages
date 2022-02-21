@@ -1,0 +1,10 @@
+MCHS_PKG_HOMEPAGE=https://xiph.org/ogg/
+MCHS_PKG_DESCRIPTION="Library for working with the Ogg multimedia container format"
+MCHS_PKG_LICENSE="BSD 3-Clause"
+MCHS_PKG_MAINTAINER="@mchs"
+MCHS_PKG_VERSION=1.3.5
+MCHS_PKG_SRCURL=https://github.com/xiph/ogg/releases/download/v${MCHS_PKG_VERSION}/libogg-${MCHS_PKG_VERSION}.tar.xz
+MCHS_PKG_SHA256=c4d91be36fc8e54deae7575241e03f4211eb102afb3fc0775fbbc1b740016705
+MCHS_PKG_AUTO_UPDATE=true
+MCHS_PKG_BREAKS="libogg-dev"
+MCHS_PKG_REPLACES="libogg-dev"

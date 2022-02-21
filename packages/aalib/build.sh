@@ -1,0 +1,9 @@
+MCHS_PKG_HOMEPAGE=https://sourceforge.net/projects/aa-project/
+MCHS_PKG_DESCRIPTION="A portable ASCII art graphic library"
+MCHS_PKG_LICENSE="LGPL-2.1"
+MCHS_PKG_MAINTAINER="@mchs"
+MCHS_PKG_VERSION=1.4rc5
+MCHS_PKG_REVISION=6
+MCHS_PKG_SRCURL=https://downloads.sourceforge.net/sourceforge/aa-project/aalib-$MCHS_PKG_VERSION.tar.gz
+MCHS_PKG_SHA256=fbddda9230cf6ee2a4f5706b4b11e2190ae45f5eda1f0409dc4f99b35e0a70ee
+MCHS_PKG_DEPENDS="libx11, ncurses"

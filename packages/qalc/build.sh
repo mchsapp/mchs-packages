@@ -1,0 +1,12 @@
+MCHS_PKG_HOMEPAGE=https://qalculate.github.io/
+MCHS_PKG_DESCRIPTION="Powerful and easy to use command line calculator"
+MCHS_PKG_LICENSE="GPL-2.0"
+MCHS_PKG_MAINTAINER="@mchs"
+MCHS_PKG_VERSION=4.0.0
+MCHS_PKG_SRCURL=https://github.com/Qalculate/libqalculate/releases/download/v$MCHS_PKG_VERSION/libqalculate-$MCHS_PKG_VERSION.tar.gz
+MCHS_PKG_SHA256=1bddd1aa5fc5c0915308400845acf376dcb685bcbd8da90360b3d75b87d4c666
+MCHS_PKG_AUTO_UPDATE=true
+MCHS_PKG_DEPENDS="libc++, libiconv, libcurl, libmpfr, libxml2, readline, libgmp, zlib"
+MCHS_PKG_BREAKS="qalc-dev"
+MCHS_PKG_REPLACES="qalc-dev"
+MCHS_PKG_EXTRA_CONFIGURE_ARGS="--without-icu"

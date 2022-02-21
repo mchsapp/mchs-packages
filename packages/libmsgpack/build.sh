@@ -1,0 +1,16 @@
+MCHS_PKG_HOMEPAGE=https://github.com/msgpack/msgpack-c/
+MCHS_PKG_DESCRIPTION="MessagePack implementation for C"
+MCHS_PKG_LICENSE="Apache-2.0"
+MCHS_PKG_MAINTAINER="@mchs"
+MCHS_PKG_VERSION=4.0.0
+MCHS_PKG_SRCURL=https://github.com/msgpack/msgpack-c/releases/download/c-${MCHS_PKG_VERSION}/msgpack-c-${MCHS_PKG_VERSION}.tar.gz
+MCHS_PKG_SHA256=420fe35e7572f2a168d17e660ef981a589c9cbe77faa25eb34a520e1fcc032c8
+MCHS_PKG_AUTO_UPDATE=true
+MCHS_PKG_AUTO_UPDATE_TAG_REGEXP="\d+\.\d+\.\d+"
+MCHS_PKG_BREAKS="libmsgpack-dev"
+MCHS_PKG_REPLACES="libmsgpack-dev"
+MCHS_PKG_BUILD_IN_SRC=true
+MCHS_PKG_EXTRA_CONFIGURE_ARGS="
+-DMSGPACK_BUILD_EXAMPLES=OFF
+-DMSGPACK_BUILD_TESTS=OFF
+"

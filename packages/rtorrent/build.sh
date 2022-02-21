@@ -1,0 +1,9 @@
+MCHS_PKG_HOMEPAGE=https://rakshasa.github.io/rtorrent/
+MCHS_PKG_DESCRIPTION="Ncurses BitTorrent client based on libTorrent"
+MCHS_PKG_LICENSE="GPL-2.0"
+MCHS_PKG_MAINTAINER="@mchs"
+MCHS_PKG_VERSION=0.9.8
+MCHS_PKG_SRCURL=https://github.com/rakshasa/rtorrent/releases/download/v${MCHS_PKG_VERSION}/rtorrent-$MCHS_PKG_VERSION.tar.gz
+MCHS_PKG_SHA256=9edf0304bf142215d3bc85a0771446b6a72d0ad8218efbe184b41e4c9c7542af
+MCHS_PKG_AUTO_UPDATE=true
+MCHS_PKG_DEPENDS="libcurl, libtorrent, ncurses"

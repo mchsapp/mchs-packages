@@ -1,0 +1,13 @@
+MCHS_PKG_HOMEPAGE=https://otr.cypherpunks.ca
+MCHS_PKG_DESCRIPTION="Off-the-Record (OTR) Messaging allows you to have private conversations over instant messaging by providing: Encryption, Authentication, Deniability, Perfect forward secrecy"
+MCHS_PKG_LICENSE="LGPL-2.0"
+MCHS_PKG_VERSION=4.1.1
+MCHS_PKG_REVISION=2
+MCHS_PKG_MAINTAINER="Oliver Schmidhauser @Neo-Oli"
+MCHS_PKG_SRCURL=https://otr.cypherpunks.ca/libotr-${MCHS_PKG_VERSION}.tar.gz
+MCHS_PKG_SHA256=8b3b182424251067a952fb4e6c7b95a21e644fbb27fbd5f8af2b2ed87ca419f5
+MCHS_PKG_DEPENDS="libgcrypt"
+MCHS_PKG_BREAKS="libotr-dev"
+MCHS_PKG_REPLACES="libotr-dev"
+MCHS_PKG_BUILD_DEPENDS="libgpg-error"
+MCHS_PKG_BUILD_IN_SRC=true

@@ -1,0 +1,9 @@
+MCHS_PKG_HOMEPAGE=http://libpipeline.nongnu.org/
+MCHS_PKG_DESCRIPTION="C library for manipulating pipelines of subprocesses in a flexible and convenient way"
+MCHS_PKG_LICENSE="GPL-2.0"
+MCHS_PKG_MAINTAINER="@mchs"
+MCHS_PKG_VERSION=1.5.4
+MCHS_PKG_SRCURL=http://download.savannah.gnu.org/releases/libpipeline/libpipeline-${MCHS_PKG_VERSION}.tar.gz
+MCHS_PKG_SHA256=db785bddba0a37ef14b4ef82ae2d18b8824e6983dfb9910319385e28df3f1a9c
+MCHS_PKG_BREAKS="libpipeline-dev"
+MCHS_PKG_REPLACES="libpipeline-dev"

@@ -1,0 +1,11 @@
+MCHS_PKG_HOMEPAGE=https://fragglet.github.io/lhasa/
+MCHS_PKG_DESCRIPTION="LHA compressor/decompressor"
+MCHS_PKG_LICENSE="ISC"
+MCHS_PKG_MAINTAINER="@mchs"
+MCHS_PKG_VERSION=0.3.1
+MCHS_PKG_REVISION=6
+MCHS_PKG_SRCURL=https://soulsphere.org/projects/lhasa/lhasa-$MCHS_PKG_VERSION.tar.gz
+MCHS_PKG_SHA256=3fb08e5f85a9b9dd023922896be9157d5fb5c0448424681810aaa2b0558a5f24
+MCHS_PKG_BREAKS="lhasa-dev"
+MCHS_PKG_REPLACES="lhasa-dev"
+MCHS_PKG_BUILD_IN_SRC=true

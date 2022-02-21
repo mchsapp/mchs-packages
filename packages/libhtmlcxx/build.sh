@@ -1,0 +1,9 @@
+MCHS_PKG_HOMEPAGE=http://htmlcxx.sourceforge.net/
+MCHS_PKG_DESCRIPTION="A simple non-validating css1 and html parser for C++"
+MCHS_PKG_LICENSE="LGPL-2.0"
+MCHS_PKG_MAINTAINER="@mchs"
+MCHS_PKG_VERSION=0.87
+MCHS_PKG_REVISION=1
+MCHS_PKG_SRCURL=http://downloads.sourceforge.net/sourceforge/htmlcxx/htmlcxx-${MCHS_PKG_VERSION}.tar.gz
+MCHS_PKG_SHA256=5d38f938cf4df9a298a5346af27195fffabfef9f460fc2a02233cbcfa8fc75c8
+MCHS_PKG_DEPENDS="libc++, iconv"

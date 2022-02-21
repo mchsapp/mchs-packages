@@ -1,0 +1,10 @@
+MCHS_PKG_HOMEPAGE="https://github.com/alex-sector/dns2tcp"
+MCHS_PKG_DESCRIPTION="dns2tcp is a tool for relaying TCP connections over DNS"
+MCHS_PKG_LICENSE="GPL-2.0"
+MCHS_PKG_MAINTAINER="Marlin Sööse <marlin.soose@laro.se>"
+MCHS_PKG_VERSION=0.5.2
+MCHS_PKG_REVISION=1
+MCHS_PKG_SRCURL=https://github.com/alex-sector/dns2tcp/archive/v${MCHS_PKG_VERSION}.tar.gz
+MCHS_PKG_SHA256=4f6e0ed0f5a1aa079a4d377c6d2b16da8ddcffae7d1ddad1280c3e209ada410c
+MCHS_PKG_AUTO_UPDATE=true
+MCHS_PKG_BUILD_IN_SRC="true"

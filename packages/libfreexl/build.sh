@@ -1,0 +1,10 @@
+MCHS_PKG_HOMEPAGE=https://www.gaia-gis.it/fossil/freexl
+MCHS_PKG_DESCRIPTION="Library to extract valid data from within an Excel (.xls) spreadsheet"
+MCHS_PKG_LICENSE="GPL-2.0"
+MCHS_PKG_MAINTAINER="@mchs"
+MCHS_PKG_VERSION=1.0.6
+MCHS_PKG_REVISION=1
+MCHS_PKG_SRCURL=https://www.gaia-gis.it/gaia-sins/freexl-${MCHS_PKG_VERSION}.tar.gz
+MCHS_PKG_SHA256=3de8b57a3d130cb2881ea52d3aa9ce1feedb1b57b7daa4eb37f751404f90fc22
+MCHS_PKG_DEPENDS="libiconv"
+MCHS_PKG_GROUPS="science"

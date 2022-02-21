@@ -1,0 +1,9 @@
+MCHS_PKG_HOMEPAGE=https://dev.yorhel.nl/ncdu
+MCHS_PKG_DESCRIPTION="Disk usage analyzer"
+MCHS_PKG_LICENSE="MIT"
+MCHS_PKG_MAINTAINER="@mchs"
+MCHS_PKG_VERSION=1.16
+MCHS_PKG_SRCURL=https://dev.yorhel.nl/download/ncdu-${MCHS_PKG_VERSION}.tar.gz
+MCHS_PKG_SHA256=2b915752a183fae014b5e5b1f0a135b4b408de7488c716e325217c2513980fd4
+MCHS_PKG_DEPENDS="ncurses, libandroid-support"
+MCHS_PKG_EXTRA_CONFIGURE_ARGS="--with-shell=$MCHS_PREFIX/bin/bash"

@@ -1,0 +1,9 @@
+MCHS_PKG_HOMEPAGE=http://www.sentex.net/~mwandel/jhead/
+MCHS_PKG_DESCRIPTION="Exif Jpeg header manipulation tool"
+MCHS_PKG_LICENSE="Public Domain"
+MCHS_PKG_MAINTAINER="@mchs"
+MCHS_PKG_VERSION=3.04
+MCHS_PKG_REVISION=1
+MCHS_PKG_SRCURL=http://www.sentex.net/~mwandel/jhead/jhead-${MCHS_PKG_VERSION}.tar.gz
+MCHS_PKG_SHA256=ef89bbcf4f6c25ed88088cf242a47a6aedfff4f08cc7dc205bf3e2c0f10a03c9
+MCHS_PKG_BUILD_IN_SRC=true

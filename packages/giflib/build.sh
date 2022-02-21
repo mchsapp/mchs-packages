@@ -1,0 +1,11 @@
+MCHS_PKG_HOMEPAGE=https://sourceforge.net/projects/giflib/
+MCHS_PKG_DESCRIPTION="A library for reading and writing gif images"
+MCHS_PKG_LICENSE="MIT"
+MCHS_PKG_MAINTAINER="@mchs"
+MCHS_PKG_VERSION=5.2.1
+MCHS_PKG_REVISION=2
+MCHS_PKG_SRCURL=https://fossies.org/linux/misc/giflib-$MCHS_PKG_VERSION.tar.gz
+MCHS_PKG_SHA256=31da5562f44c5f15d63340a09a4fd62b48c45620cd302f77a6d9acf0077879bd
+MCHS_PKG_BREAKS="giflib-dev"
+MCHS_PKG_REPLACES="giflib-dev"
+MCHS_PKG_BUILD_IN_SRC=true

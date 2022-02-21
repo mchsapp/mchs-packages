@@ -1,0 +1,9 @@
+MCHS_PKG_HOMEPAGE=http://silicone.homelinux.org/projects/netsed/
+MCHS_PKG_DESCRIPTION="Alter the contents of packets forwarded through network in real time"
+MCHS_PKG_LICENSE="GPL-2.0"
+MCHS_PKG_MAINTAINER="@mchs"
+MCHS_PKG_VERSION=1.3
+MCHS_PKG_REVISION=5
+MCHS_PKG_SRCURL=http://silicone.homelinux.org/release/netsed/netsed-$MCHS_PKG_VERSION.tar.gz
+MCHS_PKG_SHA256=f0891285442c9a4701e2b7fc7d28f2834a5352f94295649d1fdb60da1eca81aa
+MCHS_PKG_BUILD_IN_SRC=true

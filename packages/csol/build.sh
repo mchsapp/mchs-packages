@@ -1,0 +1,9 @@
+MCHS_PKG_HOMEPAGE=https://github.com/nielssp/csol
+MCHS_PKG_DESCRIPTION="A small collection of solitaire games implemented in C using ncurses"
+MCHS_PKG_LICENSE="MIT"
+MCHS_PKG_MAINTAINER="@mchs"
+MCHS_PKG_VERSION=1.4.1
+MCHS_PKG_SRCURL=https://github.com/nielssp/csol/archive/refs/tags/v${MCHS_PKG_VERSION}.tar.gz
+MCHS_PKG_SHA256=4117a9b7d6dbddb8549fa7bc8911e4bf8639f275629d428f160e7a824a29ba76
+MCHS_PKG_DEPENDS="libandroid-support, ncurses"
+MCHS_CMAKE_BUILD="Unix Makefiles"

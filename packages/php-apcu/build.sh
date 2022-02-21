@@ -1,0 +1,15 @@
+MCHS_PKG_HOMEPAGE=http://php.net/apcu
+MCHS_PKG_DESCRIPTION="APCu - APC User Cache"
+MCHS_PKG_LICENSE="PHP-3.01"
+MCHS_PKG_LICENSE_FILE=LICENSE
+MCHS_PKG_MAINTAINER="ian4hu <hu2008yinxiang@163.com>"
+MCHS_PKG_VERSION=5.1.21
+MCHS_PKG_REVISION=3
+MCHS_PKG_SRCURL="https://github.com/krakjoe/apcu/archive/refs/tags/v$MCHS_PKG_VERSION.tar.gz"
+MCHS_PKG_DEPENDS=php
+MCHS_PKG_SHA256=6406376c069fd8e51cd470bbb38d809dee7affbea07949b2a973c62ec70bd502
+MCHS_PKG_AUTO_UPDATE=true
+
+mchs_step_pre_configure() {
+	$MCHS_PREFIX/bin/phpize
+}

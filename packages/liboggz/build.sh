@@ -1,0 +1,11 @@
+MCHS_PKG_HOMEPAGE=https://www.xiph.org/oggz/
+MCHS_PKG_DESCRIPTION="Command and library to inspect, tweak, edit and validate Ogg files"
+MCHS_PKG_LICENSE="BSD 3-Clause"
+MCHS_PKG_MAINTAINER="@mchs"
+MCHS_PKG_VERSION=1.1.1
+MCHS_PKG_REVISION=5
+MCHS_PKG_SRCURL=http://downloads.xiph.org/releases/liboggz/liboggz-${MCHS_PKG_VERSION}.tar.gz
+MCHS_PKG_SHA256=6bafadb1e0a9ae4ac83304f38621a5621b8e8e32927889e65a98706d213d415a
+MCHS_PKG_DEPENDS="libogg"
+MCHS_PKG_BREAKS="liboggz-dev"
+MCHS_PKG_REPLACES="liboggz-dev"

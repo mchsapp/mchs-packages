@@ -1,0 +1,9 @@
+MCHS_PKG_HOMEPAGE=https://git.vuxu.org/lr/about/
+MCHS_PKG_DESCRIPTION="list files, recursively, includes the best features of ls, find, stat and du"
+MCHS_PKG_LICENSE="MIT"
+MCHS_PKG_MAINTAINER="@mchs"
+MCHS_PKG_VERSION=1.5.1
+MCHS_PKG_REVISION=6
+MCHS_PKG_SRCURL=https://git.vuxu.org/lr/snapshot/lr-$MCHS_PKG_VERSION.tar.xz
+MCHS_PKG_SHA256=147377be14805fe1fd7e01fe3cf4b2e0e34d98af5594743dbb97b12189fa52e1
+MCHS_PKG_BUILD_IN_SRC=true

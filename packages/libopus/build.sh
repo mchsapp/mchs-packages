@@ -1,0 +1,11 @@
+MCHS_PKG_HOMEPAGE=https://www.opus-codec.org/
+MCHS_PKG_DESCRIPTION="Reference implementation of the Opus codec"
+MCHS_PKG_LICENSE="BSD 3-Clause"
+MCHS_PKG_MAINTAINER="@mchs"
+MCHS_PKG_VERSION=1.3.1
+MCHS_PKG_REVISION=4
+MCHS_PKG_SRCURL=https://archive.mozilla.org/pub/opus/opus-${MCHS_PKG_VERSION}.tar.gz
+MCHS_PKG_SHA256=65b58e1e25b2a114157014736a3d9dfeaad8d41be1c8179866f144a2fb44ff9d
+MCHS_PKG_BREAKS="libopus-dev"
+MCHS_PKG_REPLACES="libopus-dev"
+MCHS_PKG_EXTRA_CONFIGURE_ARGS="--disable-extra-programs"

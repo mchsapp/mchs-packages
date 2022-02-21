@@ -1,0 +1,5 @@
+MCHS_SUBPKG_INCLUDE="libexec/scdaemon share/man/man1/scdaemon.1.gz"
+MCHS_SUBPKG_DESCRIPTION="Daemon invoked by gpg to manage smartcards"
+MCHS_SUBPKG_DEPENDS="libgcrypt, libksba, libgpg-error, libassuan, libnpth, libusb"
+MCHS_SUBPKG_CONFLICTS="gnupg (<< 2.3.3-2)"
+MCHS_SUBPKG_REPLACES="gnupg (<< 2.3.3-2)"

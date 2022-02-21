@@ -1,0 +1,11 @@
+MCHS_PKG_HOMEPAGE=http://www.underbit.com/products/mad/
+MCHS_PKG_DESCRIPTION="MAD ID3 tag manipulation library"
+MCHS_PKG_LICENSE="GPL-2.0"
+MCHS_PKG_MAINTAINER="@mchs"
+MCHS_PKG_VERSION=0.15.1b
+MCHS_PKG_REVISION=3
+MCHS_PKG_SRCURL=ftp://ftp.mars.org/pub/mpeg/libid3tag-${MCHS_PKG_VERSION}.tar.gz
+MCHS_PKG_SHA256=63da4f6e7997278f8a3fef4c6a372d342f705051d1eeb6a46a86b03610e26151
+MCHS_PKG_DEPENDS="zlib"
+MCHS_PKG_BREAKS="libid3tag-dev"
+MCHS_PKG_REPLACES="libid3tag-dev"

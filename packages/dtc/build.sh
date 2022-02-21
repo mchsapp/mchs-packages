@@ -1,0 +1,10 @@
+MCHS_PKG_HOMEPAGE=https://git.kernel.org/pub/scm/utils/dtc/dtc
+MCHS_PKG_DESCRIPTION="Device Tree Compiler"
+MCHS_PKG_LICENSE="GPL-2.0"
+MCHS_PKG_MAINTAINER="@mchs"
+MCHS_PKG_VERSION=1.6.1
+MCHS_PKG_REVISION=2
+MCHS_PKG_SRCURL=https://git.kernel.org/pub/scm/utils/dtc/dtc.git/snapshot/dtc-$MCHS_PKG_VERSION.tar.gz
+MCHS_PKG_SHA256=6401c9a0f577a270df4632bf0f3e5454ccc7a5ca3caefa67a3e1c29c9c6b8c60
+MCHS_PKG_BREAKS="dtc-dev"
+MCHS_PKG_REPLACES="dtc-dev"

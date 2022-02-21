@@ -1,0 +1,11 @@
+MCHS_PKG_HOMEPAGE=https://libcheck.github.io/check
+MCHS_PKG_DESCRIPTION="A unit testing framework for C"
+MCHS_PKG_LICENSE="GPL-2.0"
+MCHS_PKG_MAINTAINER="@mchs"
+MCHS_PKG_VERSION=0.15.2
+MCHS_PKG_REVISION=2
+MCHS_PKG_SRCURL=https://github.com/libcheck/check/releases/download/${MCHS_PKG_VERSION}/check-${MCHS_PKG_VERSION}.tar.gz
+MCHS_PKG_SHA256=a8de4e0bacfb4d76dd1c618ded263523b53b85d92a146d8835eb1a52932fa20a
+MCHS_PKG_AUTO_UPDATE=true
+MCHS_PKG_DEPENDS="libtool, pkg-config, texinfo"
+MCHS_PKG_BUILD_IN_SRC=true

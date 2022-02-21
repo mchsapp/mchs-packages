@@ -1,0 +1,12 @@
+MCHS_PKG_HOMEPAGE=https://libcxx.llvm.org/
+MCHS_PKG_DESCRIPTION="C++ Standard Library"
+MCHS_PKG_LICENSE="NCSA"
+MCHS_PKG_MAINTAINER="@mchs"
+MCHS_PKG_VERSION=$MCHS_NDK_VERSION
+MCHS_PKG_REVISION=3
+MCHS_PKG_SKIP_SRC_EXTRACT=true
+MCHS_PKG_ESSENTIAL=true
+
+mchs_step_post_make_install() {
+	cp "$MCHS_STANDALONE_TOOLCHAIN/sysroot/usr/lib/${MCHS_HOST_PLATFORM}/libc++_shared.so" $MCHS_PREFIX/lib
+}

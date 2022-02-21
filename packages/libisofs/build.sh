@@ -1,0 +1,12 @@
+MCHS_PKG_HOMEPAGE=https://dev.lovelyhq.com/libburnia
+MCHS_PKG_DESCRIPTION="Library to pack up hard disk files and directories into a ISO 9660 disk image"
+MCHS_PKG_LICENSE="GPL-2.0"
+MCHS_PKG_MAINTAINER="@mchs"
+MCHS_PKG_VERSION=1.5.4
+MCHS_PKG_REVISION=3
+MCHS_PKG_SRCURL=http://files.libburnia-project.org/releases/libisofs-$MCHS_PKG_VERSION.tar.gz
+MCHS_PKG_SHA256=aaa0ed80a7501979316f505b0b017f29cba0ea5463b751143bad2c360215a88e
+MCHS_PKG_DEPENDS="libiconv, zlib"
+MCHS_PKG_BREAKS="libisofs-dev"
+MCHS_PKG_REPLACES="libisofs-dev"
+MCHS_PKG_BUILD_IN_SRC=true

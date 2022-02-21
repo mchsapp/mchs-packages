@@ -1,0 +1,12 @@
+MCHS_PKG_HOMEPAGE=https://myrepos.branchable.com/
+MCHS_PKG_DESCRIPTION="Tool to manage all your version control repos"
+MCHS_PKG_LICENSE="GPL-2.0"
+MCHS_PKG_MAINTAINER="@mchs"
+MCHS_PKG_VERSION=1.20180726
+MCHS_PKG_REVISION=4
+MCHS_PKG_SRCURL=https://deb.debian.org/debian/pool/main/m/myrepos/myrepos_$MCHS_PKG_VERSION.tar.xz
+MCHS_PKG_SHA256=9e9e4c114aae22e0aac51ecbc8d84ae617a5e5dfa979fab0d3bc42945f603f1e
+MCHS_PKG_DEPENDS="git, perl"
+MCHS_PKG_EXTRA_MAKE_ARGS="PREFIX=$MCHS_PREFIX"
+MCHS_PKG_PLATFORM_INDEPENDENT=true
+MCHS_PKG_BUILD_IN_SRC=true

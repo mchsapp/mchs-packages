@@ -1,0 +1,3 @@
+MCHS_SUBPKG_INCLUDE="lib/php/ldap.so"
+MCHS_SUBPKG_DEPENDS="openldap"
+MCHS_SUBPKG_DESCRIPTION="LDAP module for PHP"

@@ -1,0 +1,9 @@
+MCHS_PKG_HOMEPAGE=https://github.com/json-c/json-c/wiki
+MCHS_PKG_DESCRIPTION="A JSON implementation in C"
+MCHS_PKG_LICENSE="MIT"
+MCHS_PKG_MAINTAINER="@mchs"
+MCHS_PKG_VERSION=0.15
+MCHS_PKG_SRCURL=https://s3.amazonaws.com/json-c_releases/releases/json-c-${MCHS_PKG_VERSION}.tar.gz
+MCHS_PKG_SHA256=b8d80a1ddb718b3ba7492916237bbf86609e9709fb007e7f7d4322f02341a4c6
+MCHS_PKG_BREAKS="json-c-dev"
+MCHS_PKG_REPLACES="json-c-dev"

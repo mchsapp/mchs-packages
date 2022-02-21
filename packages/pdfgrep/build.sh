@@ -1,0 +1,9 @@
+MCHS_PKG_HOMEPAGE=https://pdfgrep.org/
+MCHS_PKG_DESCRIPTION="Command line utility to search text in PDF files"
+MCHS_PKG_LICENSE="GPL-2.0"
+MCHS_PKG_MAINTAINER="@mchs"
+MCHS_PKG_VERSION=2.1.2
+MCHS_PKG_REVISION=9
+MCHS_PKG_SRCURL=https://pdfgrep.org/download/pdfgrep-$MCHS_PKG_VERSION.tar.gz
+MCHS_PKG_SHA256=0ef3dca1d749323f08112ffe68e6f4eb7bc25f56f90a2e933db477261b082aba
+MCHS_PKG_DEPENDS="libc++, libgcrypt, libgpg-error, pcre, poppler"

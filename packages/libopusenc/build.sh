@@ -1,0 +1,11 @@
+MCHS_PKG_HOMEPAGE=https://github.com/xiph/libopusenc
+MCHS_PKG_DESCRIPTION="High-level API for encoding .opus files"
+MCHS_PKG_LICENSE="BSD 3-Clause"
+MCHS_PKG_MAINTAINER="@mchs"
+MCHS_PKG_VERSION=0.2.1
+MCHS_PKG_REVISION=2
+MCHS_PKG_SRCURL=https://archive.mozilla.org/pub/opus/libopusenc-$MCHS_PKG_VERSION.tar.gz
+MCHS_PKG_SHA256=8298db61a8d3d63e41c1a80705baa8ce9ff3f50452ea7ec1c19a564fe106cbb9
+MCHS_PKG_DEPENDS="libopus"
+MCHS_PKG_BREAKS="libopusenc-dev"
+MCHS_PKG_REPLACES="libopusenc-dev"

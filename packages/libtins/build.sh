@@ -1,0 +1,12 @@
+MCHS_PKG_HOMEPAGE=https://libtins.github.io
+MCHS_PKG_DESCRIPTION="High-level, multiplatform C++ network packet sniffing and crafting library."
+MCHS_PKG_LICENSE="BSD 2-Clause"
+MCHS_PKG_MAINTAINER="@mchs"
+MCHS_PKG_VERSION=4.3
+MCHS_PKG_REVISION=1
+MCHS_PKG_SRCURL=https://github.com/mfontanini/libtins/archive/refs/tags/v$MCHS_PKG_VERSION.tar.gz
+MCHS_PKG_SHA256=c70bce5a41a27258bf0e3ad535d8238fb747d909a4b87ea14620f25dd65828fd
+TRRMUX_PKG_AUTO_UPDATE=true
+MCHS_PKG_DEPENDS="openssl, libpcap, boost"
+MCHS_PKG_BREAKS="libtins-dev"
+MCHS_PKG_REPLACES="libtins-dev"

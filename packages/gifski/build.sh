@@ -1,0 +1,9 @@
+MCHS_PKG_HOMEPAGE=https://gif.ski/
+MCHS_PKG_DESCRIPTION="GIF encoder based on libimagequant"
+MCHS_PKG_LICENSE="AGPL-V3"
+MCHS_PKG_MAINTAINER="@mchs"
+MCHS_PKG_VERSION=1.6.4
+MCHS_PKG_SRCURL=https://github.com/ImageOptim/gifski/archive/$MCHS_PKG_VERSION.tar.gz
+MCHS_PKG_SHA256=1bcc1bdbfdb206f44de75662ee5a8a8c61d336c04cb62457e02c9fa8456f3928
+MCHS_PKG_AUTO_UPDATE=true
+MCHS_PKG_BUILD_IN_SRC=true

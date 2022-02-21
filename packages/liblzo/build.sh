@@ -1,0 +1,10 @@
+MCHS_PKG_HOMEPAGE=http://www.oberhumer.com/opensource/lzo
+MCHS_PKG_DESCRIPTION="Portable lossless data compression library"
+MCHS_PKG_LICENSE="GPL-2.0"
+MCHS_PKG_MAINTAINER="@mchs"
+MCHS_PKG_VERSION=2.10
+MCHS_PKG_REVISION=3
+MCHS_PKG_SRCURL=https://fossies.org/linux/misc/lzo-$MCHS_PKG_VERSION.tar.xz
+MCHS_PKG_SHA256=37ed4369e45944c53306b0d6a36b66f03e5b6aede8849c9b6388f4b62b20b443
+MCHS_PKG_BREAKS="liblzo-dev"
+MCHS_PKG_REPLACES="liblzo-dev"

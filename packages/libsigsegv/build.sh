@@ -1,0 +1,9 @@
+MCHS_PKG_HOMEPAGE=https://www.gnu.org/software/libsigsegv/
+MCHS_PKG_DESCRIPTION="GNU libsigsegv is a library for handling page faults in user mode"
+MCHS_PKG_LICENSE="GPL-2.0"
+MCHS_PKG_MAINTAINER="@mchs"
+MCHS_PKG_VERSION=2.13
+MCHS_PKG_SRCURL=https://ftp.gnu.org/gnu/libsigsegv/libsigsegv-$MCHS_PKG_VERSION.tar.gz
+MCHS_PKG_SHA256=be78ee4176b05f7c75ff03298d84874db90f4b6c9d5503f0da1226b3a3c48119
+MCHS_PKG_BREAKS="libsigsegv-dev"
+MCHS_PKG_REPLACES="libsigsegv-dev"

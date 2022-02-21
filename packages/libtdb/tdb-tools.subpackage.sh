@@ -1,0 +1,2 @@
+MCHS_SUBPKG_INCLUDE="bin/ share/man/man8/"
+MCHS_SUBPKG_DESCRIPTION="Tools for TDB"

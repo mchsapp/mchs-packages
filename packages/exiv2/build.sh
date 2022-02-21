@@ -1,0 +1,15 @@
+MCHS_PKG_HOMEPAGE=https://exiv2.org/
+MCHS_PKG_DESCRIPTION="Exif, Iptc and XMP metadata manipulation library and tools"
+MCHS_PKG_LICENSE="GPL-2.0"
+MCHS_PKG_MAINTAINER="@mchs"
+MCHS_PKG_VERSION=1:0.27.5
+MCHS_PKG_SRCURL=https://github.com/Exiv2/exiv2/archive/v${MCHS_PKG_VERSION:2}.tar.gz
+MCHS_PKG_SHA256=1da1721f84809e4d37b3f106adb18b70b1b0441c860746ce6812bb3df184ed6c
+MCHS_PKG_AUTO_UPDATE=true
+MCHS_PKG_DEPENDS="libandroid-support, libc++, libexpat, zlib"
+MCHS_PKG_BREAKS="exiv2-dev"
+MCHS_PKG_REPLACES="exiv2-dev"
+
+MCHS_PKG_EXTRA_CONFIGURE_ARGS="
+-DEXIV2_ENABLE_VIDEO=ON
+-DEXIV2_ENABLE_BUILD_SAMPLES=OFF"

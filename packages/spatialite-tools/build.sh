@@ -1,0 +1,11 @@
+MCHS_PKG_HOMEPAGE=https://www.gaia-gis.it/fossil/spatialite-tools
+MCHS_PKG_DESCRIPTION="Collection of tools supporting SpatiaLite"
+MCHS_PKG_LICENSE="GPL-3.0"
+MCHS_PKG_MAINTAINER="@mchs"
+MCHS_PKG_VERSION=5.0.1
+MCHS_PKG_REVISION=2
+MCHS_PKG_SRCURL=https://www.gaia-gis.it/gaia-sins/spatialite-tools-${MCHS_PKG_VERSION}.tar.gz
+MCHS_PKG_SHA256=9604c205e87f037789bc52302c66ccd1371c3e98c74e8ec4e29b0752de35171c
+MCHS_PKG_DEPENDS="libgeos, libexpat, sqlite, proj, libspatialite"
+MCHS_PKG_GROUPS="science"
+MCHS_PKG_EXTRA_CONFIGURE_ARGS="--disable-readosm --disable-minizip"

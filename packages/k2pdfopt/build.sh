@@ -1,0 +1,10 @@
+MCHS_PKG_HOMEPAGE=https://www.willus.com/k2pdfopt/
+MCHS_PKG_DESCRIPTION="A tool that optimizes PDF files for viewing on mobile readers"
+MCHS_PKG_LICENSE="GPL-3.0"
+MCHS_PKG_MAINTAINER="@mchs"
+MCHS_PKG_VERSION=2.51
+MCHS_PKG_REVISION=5
+MCHS_PKG_SRCURL=http://www.willus.com/k2pdfopt/src/k2pdfopt_v${MCHS_PKG_VERSION}_src.zip
+MCHS_PKG_SHA256=3e6e4d7aac9c9bed4c7854888a6a91213be10121be76e17f83e080e829ac5fde
+MCHS_PKG_DEPENDS="leptonica, libjasper, libjpeg-turbo, libpng, mupdf, netpbm, zlib"
+MCHS_PKG_BUILD_IN_SRC=true

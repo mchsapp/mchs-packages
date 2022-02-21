@@ -1,0 +1,10 @@
+MCHS_PKG_HOMEPAGE=https://github.com/visit1985/mdp
+MCHS_PKG_DESCRIPTION="Command-line based markdown presentation tool"
+MCHS_PKG_LICENSE="GPL-3.0"
+MCHS_PKG_MAINTAINER="@mchs"
+MCHS_PKG_VERSION=1.0.15
+MCHS_PKG_REVISION=2
+MCHS_PKG_SRCURL=https://github.com/visit1985/mdp/archive/${MCHS_PKG_VERSION}.tar.gz
+MCHS_PKG_SHA256=3edc8ea1551fdf290d6bba721105e2e2c23964070ac18c13b4b8d959cdf6116f
+MCHS_PKG_DEPENDS="libandroid-support, ncurses"
+MCHS_PKG_BUILD_IN_SRC=true

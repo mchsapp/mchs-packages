@@ -1,0 +1,11 @@
+MCHS_PKG_HOMEPAGE=https://libbsd.freedesktop.org
+MCHS_PKG_DESCRIPTION="utility functions from BSD systems"
+MCHS_PKG_LICENSE="BSD 3-Clause"
+MCHS_PKG_MAINTAINER="@mchs"
+MCHS_PKG_VERSION=0.10.0
+MCHS_PKG_REVISION=1
+MCHS_PKG_SRCURL=https://libbsd.freedesktop.org/releases/libbsd-$MCHS_PKG_VERSION.tar.xz
+MCHS_PKG_SHA256=34b8adc726883d0e85b3118fa13605e179a62b31ba51f676136ecb2d0bc1a887
+MCHS_PKG_BREAKS="libbsd-dev"
+MCHS_PKG_REPLACES="libbsd-dev"
+MCHS_PKG_BUILD_IN_SRC=true

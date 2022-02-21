@@ -1,0 +1,9 @@
+MCHS_PKG_HOMEPAGE=https://msgpack.org/
+MCHS_PKG_DESCRIPTION="msgpack for C++"
+MCHS_PKG_LICENSE="BSL-1.0"
+MCHS_PKG_MAINTAINER="@mchs"
+MCHS_PKG_VERSION=4.0.3
+MCHS_PKG_REVISION=1
+MCHS_PKG_SRCURL=https://github.com/msgpack/msgpack-c/releases/download/cpp-${MCHS_PKG_VERSION}/msgpack-cxx-${MCHS_PKG_VERSION}.tar.gz
+MCHS_PKG_SHA256=9b3c1803b9855b7b023d7f181f66ebb0d6941275ba41d692037e0aa27736443f
+MCHS_PKG_DEPENDS="boost"

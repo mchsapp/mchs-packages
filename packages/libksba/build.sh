@@ -1,0 +1,10 @@
+MCHS_PKG_HOMEPAGE=https://gnupg.org/related_software/libksba/
+MCHS_PKG_DESCRIPTION="Library for using X.509 certificates and CMS (Cryptographic Message Syntax) easily accessible"
+MCHS_PKG_LICENSE="GPL-2.0"
+MCHS_PKG_MAINTAINER="@mchs"
+MCHS_PKG_VERSION=1.6.0
+MCHS_PKG_SRCURL=https://www.gnupg.org/ftp/gcrypt/libksba/libksba-${MCHS_PKG_VERSION}.tar.bz2
+MCHS_PKG_SHA256=dad683e6f2d915d880aa4bed5cea9a115690b8935b78a1bbe01669189307a48b
+MCHS_PKG_DEPENDS="libgpg-error"
+MCHS_PKG_BREAKS="libksba-dev"
+MCHS_PKG_REPLACES="libksba-dev"

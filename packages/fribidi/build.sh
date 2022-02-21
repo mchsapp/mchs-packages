@@ -1,0 +1,13 @@
+MCHS_PKG_HOMEPAGE=https://github.com/fribidi/fribidi/
+MCHS_PKG_DESCRIPTION="Implementation of the Unicode Bidirectional Algorithm"
+MCHS_PKG_LICENSE="LGPL-2.0"
+MCHS_PKG_MAINTAINER="@mchs"
+MCHS_PKG_VERSION=1.0.11
+MCHS_PKG_REVISION=1
+MCHS_PKG_SRCURL=https://github.com/fribidi/fribidi/releases/download/v$MCHS_PKG_VERSION/fribidi-$MCHS_PKG_VERSION.tar.xz
+MCHS_PKG_SHA256=30f93e9c63ee627d1a2cedcf59ac34d45bf30240982f99e44c6e015466b4e73d
+MCHS_PKG_AUTO_UPDATE=true
+MCHS_PKG_DEPENDS="glib"
+MCHS_PKG_BREAKS="fribidi-dev"
+MCHS_PKG_REPLACES="fribidi-dev"
+MCHS_PKG_EXTRA_CONFIGURE_ARGS="--disable-docs"

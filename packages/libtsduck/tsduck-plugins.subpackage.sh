@@ -1,0 +1,2 @@
+MCHS_SUBPKG_INCLUDE="lib/tsduck/"
+MCHS_SUBPKG_DESCRIPTION="Plugins for TSDuck"

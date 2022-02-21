@@ -1,0 +1,18 @@
+for i in @MCHS_PREFIX@/etc/profile.d/*.sh; do
+	if [ -r $i ]; then
+		. $i
+	fi
+done
+unset i
+
+# Source etc/bash.bashrc and ~/.bashrc also for interactive bash login shells:
+if [ "$BASH" ]; then
+        if [[ "$-" == *"i"* ]]; then
+                if [ -r @MCHS_PREFIX@/etc/bash.bashrc ]; then
+                        . @MCHS_PREFIX@/etc/bash.bashrc
+                fi
+                if [ -r @MCHS_HOME@/.bashrc ]; then
+                        . @MCHS_HOME@/.bashrc
+                fi
+        fi
+fi

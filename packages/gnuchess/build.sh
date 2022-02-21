@@ -1,0 +1,11 @@
+MCHS_PKG_HOMEPAGE=https://www.gnu.org/software/chess/
+MCHS_PKG_DESCRIPTION="Chess-playing program"
+MCHS_PKG_LICENSE="GPL-3.0"
+MCHS_PKG_MAINTAINER="@mchs"
+MCHS_PKG_VERSION=6.2.8
+MCHS_PKG_REVISION=2
+MCHS_PKG_SRCURL=https://mirrors.kernel.org/gnu/chess/gnuchess-${MCHS_PKG_VERSION}.tar.gz
+MCHS_PKG_SHA256=d50446cda8012240321da39cddbb4df4d08458a8d538a4738882814139583847
+MCHS_PKG_DEPENDS="libc++, ncurses, readline"
+MCHS_PKG_RM_AFTER_INSTALL="bin/gnuchessu bin/gnuchessx"
+MCHS_PKG_GROUPS="games"

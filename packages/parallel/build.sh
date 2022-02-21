@@ -1,0 +1,9 @@
+MCHS_PKG_HOMEPAGE=https://www.gnu.org/software/parallel/
+MCHS_PKG_DESCRIPTION="GNU Parallel is a shell tool for executing jobs in parallel using one or more machines"
+MCHS_PKG_LICENSE="GPL-3.0"
+MCHS_PKG_MAINTAINER="@mchs"
+MCHS_PKG_VERSION=20211022
+MCHS_PKG_SRCURL=https://mirrors.kernel.org/gnu/parallel/parallel-${MCHS_PKG_VERSION}.tar.bz2
+MCHS_PKG_SHA256=da7190fce22a9cda97b2ce36df112a2c634f1b4a5591af343b928253e996de9b
+MCHS_PKG_DEPENDS="perl"
+MCHS_PKG_PLATFORM_INDEPENDENT=true

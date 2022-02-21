@@ -1,0 +1,10 @@
+MCHS_PKG_HOMEPAGE=https://www.netfilter.org/projects/libmnl/
+MCHS_PKG_DESCRIPTION="a minimalistic user-space library oriented to Netlink developers"
+MCHS_PKG_LICENSE="LGPL-2.1"
+MCHS_PKG_MAINTAINER="@mchs"
+MCHS_PKG_VERSION=1.0.4
+MCHS_PKG_REVISION=1
+MCHS_PKG_SRCURL=https://netfilter.org/projects/libmnl/files/libmnl-${MCHS_PKG_VERSION}.tar.bz2
+MCHS_PKG_SHA256=171f89699f286a5854b72b91d06e8f8e3683064c5901fb09d954a9ab6f551f81
+MCHS_PKG_BREAKS="libmnl-dev"
+MCHS_PKG_REPLACES="libmnl-dev"

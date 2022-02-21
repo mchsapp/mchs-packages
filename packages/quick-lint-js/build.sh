@@ -1,0 +1,9 @@
+MCHS_PKG_HOMEPAGE=https://quick-lint-js.com/
+MCHS_PKG_DESCRIPTION="Finds bugs in JavaScript programs"
+MCHS_PKG_LICENSE="GPL-3.0"
+MCHS_PKG_MAINTAINER="@mchs"
+MCHS_PKG_VERSION=1.0.0
+MCHS_PKG_SRCURL=https://github.com/quick-lint/quick-lint-js.git
+MCHS_PKG_GIT_BRANCH=$MCHS_PKG_VERSION
+MCHS_PKG_DEPENDS="libc++"
+MCHS_PKG_EXTRA_CONFIGURE_ARGS="-DBUILD_TESTING=OFF"

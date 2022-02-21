@@ -1,0 +1,10 @@
+MCHS_PKG_HOMEPAGE=https://include-what-you-use.org/
+MCHS_PKG_DESCRIPTION="A tool to analyze #includes in C and C++ source files"
+MCHS_PKG_LICENSE=NCSA
+MCHS_PKG_MAINTAINER="@mchs"
+MCHS_PKG_VERSION=0.17
+MCHS_PKG_SRCURL=https://github.com/include-what-you-use/include-what-you-use/archive/$MCHS_PKG_VERSION.tar.gz
+MCHS_PKG_SHA256=2682727a4462d2d233ac1c03e63b29d606262dd9e54920e7a70dddc25d4cb270
+MCHS_PKG_AUTO_UPDATE=true
+MCHS_PKG_DEPENDS='clang, python'
+MCHS_PKG_BUILD_DEPENDS=libllvm-static

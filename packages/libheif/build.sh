@@ -1,0 +1,10 @@
+MCHS_PKG_HOMEPAGE=https://github.com/strukturag/libheif
+MCHS_PKG_DESCRIPTION="HEIF (HEIC/AVIF) image encoding and decoding library"
+MCHS_PKG_LICENSE="LGPL-3.0"
+MCHS_PKG_MAINTAINER="@mchs"
+MCHS_PKG_VERSION=1.12.0
+MCHS_PKG_REVISION=2
+MCHS_PKG_SRCURL=https://github.com/strukturag/libheif/releases/download/v${MCHS_PKG_VERSION}/libheif-${MCHS_PKG_VERSION}.tar.gz
+MCHS_PKG_SHA256=e1ac2abb354fdc8ccdca71363ebad7503ad731c84022cf460837f0839e171718
+MCHS_PKG_AUTO_UPDATE=true
+MCHS_PKG_DEPENDS="libaom, libdav1d, librav1e, libde265, libx265"

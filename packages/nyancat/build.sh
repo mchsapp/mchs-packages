@@ -1,0 +1,9 @@
+MCHS_PKG_HOMEPAGE=http://nyancat.dakko.us
+MCHS_PKG_DESCRIPTION="Nyancat in your terminal, rendered through ANSI escape sequences."
+MCHS_PKG_LICENSE="NCSA"
+MCHS_PKG_MAINTAINER="Oliver Schmidhauser @Neo-Oli"
+MCHS_PKG_VERSION=1.5.2
+MCHS_PKG_SRCURL=https://github.com/klange/nyancat/archive/${MCHS_PKG_VERSION}.tar.gz
+MCHS_PKG_SHA256=88cdcaa9c7134503dd0364a97fa860da3381a09cb555c3aae9918360827c2032
+MCHS_PKG_AUTO_UPDATE=true
+MCHS_PKG_BUILD_IN_SRC=true

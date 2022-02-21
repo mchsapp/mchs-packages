@@ -1,0 +1,12 @@
+MCHS_PKG_HOMEPAGE=https://libexpat.github.io/
+MCHS_PKG_DESCRIPTION="XML parsing C library"
+MCHS_PKG_LICENSE="BSD"
+MCHS_PKG_MAINTAINER="@mchs"
+MCHS_PKG_VERSION=2.4.6
+MCHS_PKG_SRCURL=https://github.com/libexpat/libexpat/releases/download/R_${MCHS_PKG_VERSION//./_}/expat-$MCHS_PKG_VERSION.tar.bz2
+MCHS_PKG_SHA256=ce317706b07cae150f90cddd4253f5b4fba929607488af5ac47bf2bc08e31f09
+MCHS_PKG_AUTO_UPDATE=true
+MCHS_PKG_AUTO_UPDATE_TAG_REGEXP="\d+.\d+.\d+"
+MCHS_PKG_BREAKS="libexpat-dev"
+MCHS_PKG_REPLACES="libexpat-dev"
+MCHS_PKG_EXTRA_CONFIGURE_ARGS="--without-xmlwf --without-docbook"

@@ -1,0 +1,10 @@
+MCHS_PKG_HOMEPAGE=http://www.multiprecision.org/
+MCHS_PKG_DESCRIPTION="Library for the arithmetic of complex numbers with arbitrarily high precision"
+MCHS_PKG_LICENSE="LGPL-2.0"
+MCHS_PKG_MAINTAINER="@mchs"
+MCHS_PKG_VERSION=1.2.1
+MCHS_PKG_SRCURL=https://mirrors.kernel.org/gnu/mpc/mpc-$MCHS_PKG_VERSION.tar.gz
+MCHS_PKG_SHA256=17503d2c395dfcf106b622dc142683c1199431d095367c6aacba6eec30340459
+MCHS_PKG_DEPENDS="libgmp, libmpfr"
+MCHS_PKG_BREAKS="libmpc-dev"
+MCHS_PKG_REPLACES="libmpc-dev"

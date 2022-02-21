@@ -1,0 +1,9 @@
+MCHS_PKG_HOMEPAGE=https://github.com/axel-download-accelerator/axel
+MCHS_PKG_DESCRIPTION="light command line download accelerator"
+MCHS_PKG_LICENSE="GPL-2.0"
+MCHS_PKG_MAINTAINER="@mchs"
+MCHS_PKG_VERSION=2.17.11
+MCHS_PKG_SRCURL=https://github.com/axel-download-accelerator/axel/releases/download/v${MCHS_PKG_VERSION}/axel-${MCHS_PKG_VERSION}.tar.gz
+MCHS_PKG_SHA256=f12682f981c83f374b82b0668f25f694a2042b617b236ee6fb057e5473c54e31
+MCHS_PKG_AUTO_UPDATE=true
+MCHS_PKG_DEPENDS="openssl"

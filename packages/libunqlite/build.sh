@@ -1,0 +1,9 @@
+MCHS_PKG_HOMEPAGE=https://unqlite.org/
+MCHS_PKG_DESCRIPTION="Transactional embedded database engine"
+MCHS_PKG_LICENSE="BSD 2-Clause, Sleepycat"
+MCHS_PKG_LICENSE_FILE="LICENSE, src/jx9_license.txt"
+MCHS_PKG_MAINTAINER="@mchs"
+MCHS_PKG_VERSION=1.1.9
+MCHS_PKG_SRCURL=https://github.com/symisc/unqlite/archive/refs/tags/v${MCHS_PKG_VERSION}.tar.gz
+MCHS_PKG_SHA256=33d5b5e7b2ca223942e77d31112d2e20512bc507808414451c8a98a7be5e15c0
+MCHS_PKG_NO_STATICSPLIT=true

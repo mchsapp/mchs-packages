@@ -1,0 +1,5 @@
+--- a/pdftk
++++ b/pdftk
+@@ -0,0 +1,2 @@
++#!@MCHS_PREFIX@/bin/sh
++exec java -jar @MCHS_PREFIX@/share/java/pdftk.jar "$@"

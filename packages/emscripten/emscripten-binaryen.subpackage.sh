@@ -1,0 +1,3 @@
+MCHS_SUBPKG_DESCRIPTION="Emscripten-compatible Binaryen"
+MCHS_SUBPKG_PLATFORM_INDEPENDENT=false
+MCHS_SUBPKG_INCLUDE="opt/emscripten-binaryen"

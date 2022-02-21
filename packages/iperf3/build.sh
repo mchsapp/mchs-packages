@@ -1,0 +1,10 @@
+MCHS_PKG_HOMEPAGE=https://github.com/esnet/iperf
+MCHS_PKG_DESCRIPTION="TCP, UDP, and SCTP network bandwidth measurement tool"
+MCHS_PKG_LICENSE="BSD 3-Clause"
+MCHS_PKG_MAINTAINER="@mchs"
+MCHS_PKG_VERSION=3.10.1
+MCHS_PKG_SRCURL=https://fossies.org/linux/privat/iperf-$MCHS_PKG_VERSION.tar.gz
+MCHS_PKG_SHA256=03bc9760cc54a245191d46bfc8edaf8a4750f0e87abca6764486972044d6715a
+MCHS_PKG_DEPENDS="openssl"
+MCHS_PKG_BREAKS="iperf3-dev"
+MCHS_PKG_REPLACES="iperf3-dev"

@@ -1,0 +1,9 @@
+MCHS_PKG_HOMEPAGE=https://github.com/sharkdp/hexyl
+MCHS_PKG_DESCRIPTION="A command-line hex viewer"
+MCHS_PKG_LICENSE="Apache-2.0"
+MCHS_PKG_MAINTAINER="@mchs"
+MCHS_PKG_VERSION=0.9.0
+MCHS_PKG_SRCURL=https://github.com/sharkdp/hexyl/archive/v$MCHS_PKG_VERSION.tar.gz
+MCHS_PKG_SHA256=73f0dc1be1eaa1a34e3280bc1eeb4f86f34b024205fc7bf3c87d5a0bc4021a6a
+MCHS_PKG_AUTO_UPDATE=true
+MCHS_PKG_BUILD_IN_SRC=true

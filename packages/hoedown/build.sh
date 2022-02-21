@@ -1,0 +1,11 @@
+MCHS_PKG_HOMEPAGE=https://github.com/hoedown/hoedown
+MCHS_PKG_DESCRIPTION="Hoedown is a revived fork of Sundown, the Markdown parser based on the original code of the Upskirt library"
+MCHS_PKG_LICENSE="ISC"
+MCHS_PKG_MAINTAINER="@mchs"
+MCHS_PKG_VERSION=3.0.7
+MCHS_PKG_REVISION=3
+MCHS_PKG_SRCURL=https://github.com/hoedown/hoedown/archive/$MCHS_PKG_VERSION.tar.gz
+MCHS_PKG_SHA256=01b6021b1ec329b70687c0d240b12edcaf09c4aa28423ddf344d2bd9056ba920
+MCHS_PKG_BREAKS="hoedown-dev"
+MCHS_PKG_REPLACES="hoedown-dev"
+MCHS_PKG_BUILD_IN_SRC=true

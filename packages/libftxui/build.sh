@@ -1,0 +1,9 @@
+MCHS_PKG_HOMEPAGE=https://github.com/ArthurSonzogni/FTXUI
+MCHS_PKG_DESCRIPTION="A simple C++ library for terminal based user interface"
+MCHS_PKG_LICENSE="MIT"
+MCHS_PKG_MAINTAINER="@mchs"
+MCHS_PKG_VERSION=2.0.0
+MCHS_PKG_SRCURL=https://github.com/ArthurSonzogni/FTXUI/archive/refs/tags/v${MCHS_PKG_VERSION}.tar.gz
+MCHS_PKG_SHA256=d891695ef22176f0c09f8261a37af9ad5b262dd670a81e6b83661a23abc2c54f
+MCHS_PKG_DEPENDS="libc++"
+MCHS_PKG_EXTRA_CONFIGURE_ARGS="-DBUILD_SHARED_LIBS=ON"

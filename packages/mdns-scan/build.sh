@@ -1,0 +1,10 @@
+MCHS_PKG_HOMEPAGE="https://github.com/alteholz/mdns-scan"
+MCHS_PKG_DESCRIPTION="A tool for scanning for mDNS/DNS-SD services published on the local network"
+MCHS_PKG_LICENSE="GPL-2.0"
+MCHS_PKG_MAINTAINER="@mchs"
+MCHS_PKG_VERSION=0.5
+MCHS_PKG_REVISION=2
+MCHS_PKG_SRCURL=https://github.com/alteholz/mdns-scan/archive/v${MCHS_PKG_VERSION}.tar.gz
+MCHS_PKG_SHA256=fa830d91b993d15f8a463c8dd68f7106f0dded87928bec36074de934c2c52f73
+MCHS_PKG_AUTO_UPDATE=true
+MCHS_PKG_BUILD_IN_SRC=true

@@ -1,0 +1,11 @@
+MCHS_PKG_HOMEPAGE=https://github.com/mchs/mchs-packages
+MCHS_PKG_DESCRIPTION="A metapackage that installs essential development tools"
+MCHS_PKG_LICENSE="Public Domain"
+MCHS_PKG_MAINTAINER="@mchs"
+MCHS_PKG_VERSION=4.1
+MCHS_PKG_DEPENDS="clang, make, pkg-config"
+MCHS_PKG_RECOMMENDS="autoconf, automake, bc, bison, cmake, flex, gperf, libtool, m4"
+MCHS_PKG_SUGGESTS="git, golang, nodejs, patchelf, proot, python, ruby, rust, subversion"
+MCHS_PKG_PLATFORM_INDEPENDENT=true
+MCHS_PKG_SKIP_SRC_EXTRACT=true
+MCHS_PKG_METAPACKAGE=true

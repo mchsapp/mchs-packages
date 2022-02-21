@@ -1,0 +1,19 @@
+MCHS_PKG_HOMEPAGE=https://gstreamer.freedesktop.org/
+MCHS_PKG_DESCRIPTION="Open source multimedia framework"
+MCHS_PKG_LICENSE="LGPL-2.0"
+MCHS_PKG_MAINTAINER="@mchs"
+MCHS_PKG_VERSION=1.19.3
+MCHS_PKG_REVISION=2
+MCHS_PKG_SRCURL=https://gstreamer.freedesktop.org/src/gstreamer/gstreamer-${MCHS_PKG_VERSION}.tar.xz
+MCHS_PKG_SHA256=906d7d4bf92f941586c0cbce717d9cad6aac36994e16fa6f2f153e07e3221bca
+MCHS_PKG_DEPENDS="glib"
+MCHS_PKG_BREAKS="gstreamer-dev"
+MCHS_PKG_REPLACES="gstreamer-dev"
+MCHS_PKG_EXTRA_CONFIGURE_ARGS="
+-Dcheck=disabled
+-Dtests=disabled
+-Dexamples=disabled
+-Dbenchmarks=disabled
+-Dlibunwind=disabled
+-Dlibdw=disabled
+"

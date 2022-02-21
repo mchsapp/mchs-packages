@@ -1,0 +1,9 @@
+MCHS_PKG_HOMEPAGE=http://www.grinninglizard.com/tinyxml2/
+MCHS_PKG_DESCRIPTION="A simple, small, efficient, C++ XML parser"
+MCHS_PKG_LICENSE="ZLIB"
+MCHS_PKG_MAINTAINER="@mchs"
+MCHS_PKG_VERSION=9.0.0
+MCHS_PKG_SRCURL=https://github.com/leethomason/tinyxml2/archive/${MCHS_PKG_VERSION}.tar.gz
+MCHS_PKG_SHA256=cc2f1417c308b1f6acc54f88eb70771a0bf65f76282ce5c40e54cfe52952702c
+MCHS_PKG_DEPENDS="libc++"
+MCHS_PKG_EXTRA_CONFIGURE_ARGS="-DBUILD_SHARED_LIBS=ON"

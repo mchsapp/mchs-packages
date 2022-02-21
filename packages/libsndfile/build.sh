@@ -1,0 +1,13 @@
+MCHS_PKG_HOMEPAGE=http://www.mega-nerd.com/libsndfile
+MCHS_PKG_DESCRIPTION="Library for reading/writing audio files"
+MCHS_PKG_LICENSE="LGPL-2.0"
+MCHS_PKG_MAINTAINER="@mchs"
+MCHS_PKG_VERSION=1.0.31
+MCHS_PKG_SRCURL=https://github.com/erikd/libsndfile/releases/download/${MCHS_PKG_VERSION}/libsndfile-${MCHS_PKG_VERSION}.tar.bz2
+MCHS_PKG_SHA256=a8cfb1c09ea6e90eff4ca87322d4168cdbe5035cb48717b40bf77e751cc02163
+MCHS_PKG_AUTO_UPDATE=true
+MCHS_PKG_DEPENDS="libflac, libvorbis"
+MCHS_PKG_BREAKS="libsndfile-dev"
+MCHS_PKG_REPLACES="libsndfile-dev"
+MCHS_PKG_EXTRA_CONFIGURE_ARGS="--disable-sqlite --disable-alsa"
+MCHS_PKG_RM_AFTER_INSTALL="bin/ share/man/man1/"

@@ -1,0 +1,12 @@
+MCHS_PKG_HOMEPAGE=http://xmlsoft.org/libxslt/
+MCHS_PKG_DESCRIPTION="XSLT processing library"
+MCHS_PKG_LICENSE="BSD"
+MCHS_PKG_MAINTAINER="@mchs"
+MCHS_PKG_VERSION=1.1.34
+MCHS_PKG_REVISION=2
+MCHS_PKG_SRCURL=ftp://xmlsoft.org/libxslt/libxslt-${MCHS_PKG_VERSION}.tar.gz
+MCHS_PKG_SHA256=98b1bd46d6792925ad2dfe9a87452ea2adebf69dcb9919ffd55bf926a7f93f7f
+MCHS_PKG_EXTRA_CONFIGURE_ARGS="--without-python"
+MCHS_PKG_DEPENDS="libxml2, libgcrypt, libgpg-error, zlib"
+MCHS_PKG_BREAKS="libxslt-dev"
+MCHS_PKG_REPLACES="libxslt-dev"

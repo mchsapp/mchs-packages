@@ -1,0 +1,10 @@
+MCHS_PKG_HOMEPAGE=https://git.zx2c4.com/music-file-organizer/about/
+MCHS_PKG_DESCRIPTION="Organizer of audio files into directories based on metadata tags"
+MCHS_PKG_LICENSE="GPL-2.0"
+MCHS_PKG_MAINTAINER="@mchs"
+MCHS_PKG_VERSION=1.0.3
+MCHS_PKG_REVISION=6
+MCHS_PKG_SRCURL=https://git.zx2c4.com/music-file-organizer/snapshot/music-file-organizer-$MCHS_PKG_VERSION.tar.xz
+MCHS_PKG_SHA256=042c33f6db7da8889125359db02054fa1fcbfad339e8841e7e26474bf6aed3ad
+MCHS_PKG_BUILD_IN_SRC=true
+MCHS_PKG_DEPENDS="libicu, taglib"

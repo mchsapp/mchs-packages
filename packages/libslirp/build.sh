@@ -1,0 +1,9 @@
+MCHS_PKG_HOMEPAGE=https://gitlab.freedesktop.org/slirp/libslirp
+MCHS_PKG_DESCRIPTION="A general purpose TCP-IP emulator."
+MCHS_PKG_LICENSE="BSD 3-Clause, MIT"
+MCHS_PKG_MAINTAINER="@mchs"
+MCHS_PKG_VERSION=4.6.1
+MCHS_PKG_REVISION=1
+MCHS_PKG_SRCURL=https://gitlab.freedesktop.org/slirp/libslirp/-/archive/v${MCHS_PKG_VERSION}/libslirp-v${MCHS_PKG_VERSION}.tar.gz
+MCHS_PKG_SHA256=69ad4df0123742a29cc783b35de34771ed74d085482470df6313b6abeb799b11
+MCHS_PKG_DEPENDS="glib"

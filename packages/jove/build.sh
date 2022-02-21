@@ -1,0 +1,10 @@
+MCHS_PKG_HOMEPAGE=https://directory.fsf.org/wiki/Jove
+MCHS_PKG_DESCRIPTION="Jove is a compact, powerful, Emacs-style text-editor."
+MCHS_PKG_LICENSE="custom"
+MCHS_PKG_MAINTAINER="@mchs"
+MCHS_PKG_VERSION=4.17.3.7
+MCHS_PKG_SRCURL=https://github.com/jonmacs/jove/archive/${MCHS_PKG_VERSION}.tar.gz
+MCHS_PKG_SHA256=b3918b94cc7fa973c7ebaf17cae25bf9643281ed4129265155abc3837ddf22bf
+MCHS_PKG_DEPENDS="ncurses, ncurses-utils"
+MCHS_PKG_BUILD_IN_SRC=true
+MCHS_PKG_LICENSE_FILE=LICENSE

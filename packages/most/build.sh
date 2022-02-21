@@ -1,0 +1,9 @@
+MCHS_PKG_HOMEPAGE=http://www.jedsoft.org/most/index.html
+MCHS_PKG_DESCRIPTION="A terminal pager similar to 'more' and 'less'"
+MCHS_PKG_LICENSE="GPL-2.0"
+MCHS_PKG_MAINTAINER="@mchs"
+MCHS_PKG_VERSION=5.1.0
+MCHS_PKG_SRCURL=https://www.jedsoft.org/releases/most/most-$MCHS_PKG_VERSION.tar.gz
+MCHS_PKG_SHA256=db805d1ffad3e85890802061ac8c90e3c89e25afb184a794e03715a3ed190501
+MCHS_PKG_DEPENDS="slang"
+MCHS_PKG_BUILD_IN_SRC=true

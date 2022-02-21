@@ -1,0 +1,10 @@
+MCHS_PKG_HOMEPAGE=https://gitlab.com/timvisee/ffsend
+MCHS_PKG_DESCRIPTION="A fully featured Firefox Send client"
+MCHS_PKG_LICENSE="GPL-3.0"
+MCHS_PKG_MAINTAINER="@mchs"
+MCHS_PKG_VERSION=0.2.74
+MCHS_PKG_SRCURL=https://gitlab.com/timvisee/ffsend/-/archive/v$MCHS_PKG_VERSION/ffsend-v$MCHS_PKG_VERSION.tar.gz
+MCHS_PKG_SHA256=a746ff52547a7fab5731554b81a2ed327a174f3146189c2b7ca25b0ef167352e
+MCHS_PKG_DEPENDS="openssl"
+MCHS_PKG_BUILD_IN_SRC=true
+MCHS_PKG_EXTRA_CONFIGURE_ARGS="--no-default-features --features crypto-openssl,send2,send3,history,archive,qrcode,urlshorten,infer-command"

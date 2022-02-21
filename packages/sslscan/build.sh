@@ -1,0 +1,10 @@
+MCHS_PKG_HOMEPAGE=https://github.com/rbsec/sslscan
+MCHS_PKG_DESCRIPTION="Utility to discover supported cipher suites on SSL/TLS enabled servers"
+MCHS_PKG_LICENSE="GPL-3.0"
+MCHS_PKG_MAINTAINER="@mchs"
+MCHS_PKG_VERSION=2.0.11
+MCHS_PKG_SRCURL=https://github.com/rbsec/sslscan/archive/${MCHS_PKG_VERSION}.tar.gz
+MCHS_PKG_SHA256=74bdf97c834b961afb342cae1ea32067af0e05f58239979d0f2d3fab82acae1c
+MCHS_PKG_AUTO_UPDATE=true
+MCHS_PKG_DEPENDS="openssl"
+MCHS_PKG_BUILD_IN_SRC=true

@@ -1,0 +1,10 @@
+MCHS_PKG_HOMEPAGE=http://docopt.org
+MCHS_PKG_DESCRIPTION="Command line arguments parser for C++11 and later"
+MCHS_PKG_LICENSE="BSL-1.0, MIT"
+MCHS_PKG_LICENSE_FILE="LICENSE-Boost-1.0, LICENSE-MIT"
+MCHS_PKG_MAINTAINER="Henrik Grimler @Grimler91"
+MCHS_PKG_VERSION=0.6.3
+MCHS_PKG_REVISION=1
+MCHS_PKG_SRCURL=https://github.com/docopt/docopt.cpp/archive/v${MCHS_PKG_VERSION}.tar.gz
+MCHS_PKG_SHA256=28af5a0c482c6d508d22b14d588a3b0bd9ff97135f99c2814a5aa3cbff1d6632
+MCHS_PKG_AUTO_UPDATE=true

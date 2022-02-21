@@ -1,0 +1,3 @@
+MCHS_SUBPKG_DESCRIPTION="rust src"
+MCHS_SUBPKG_PLATFORM_INDEPENDENT=true
+MCHS_SUBPKG_INCLUDE="opt/rust-nightly/lib/rustlib/src"

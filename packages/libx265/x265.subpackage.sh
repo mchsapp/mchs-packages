@@ -1,0 +1,2 @@
+MCHS_SUBPKG_INCLUDE="bin/x265"
+MCHS_SUBPKG_DESCRIPTION="H.265/HEVC video stream encoder tool"

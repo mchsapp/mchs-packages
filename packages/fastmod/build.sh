@@ -1,0 +1,9 @@
+MCHS_PKG_HOMEPAGE=https://github.com/facebookincubator/fastmod
+MCHS_PKG_DESCRIPTION="Regex-based code refactoring utility"
+MCHS_PKG_LICENSE="Apache-2.0"
+MCHS_PKG_MAINTAINER="@mchs"
+MCHS_PKG_VERSION=0.4.2
+MCHS_PKG_SRCURL=https://github.com/facebookincubator/fastmod/archive/v$MCHS_PKG_VERSION.tar.gz
+MCHS_PKG_SHA256=5afb4c449aa7d1efe34e0540507fc1d1f40f7eba0861b2bb10409080faeffc4a
+MCHS_PKG_AUTO_UPDATE=true
+MCHS_PKG_BUILD_IN_SRC=true

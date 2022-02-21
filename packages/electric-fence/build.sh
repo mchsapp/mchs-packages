@@ -1,0 +1,9 @@
+MCHS_PKG_HOMEPAGE=https://elinux.org/Electric_Fence
+MCHS_PKG_DESCRIPTION="Electric Fence (eFence) malloc memory debugger"
+MCHS_PKG_LICENSE=GPL-2.0
+MCHS_PKG_MAINTAINER="@mchs"
+MCHS_PKG_VERSION=2.2.5
+MCHS_PKG_REVISION=1
+MCHS_PKG_SRCURL=https://deb.debian.org/debian/pool/main/e/electric-fence/electric-fence_${MCHS_PKG_VERSION}.tar.gz
+MCHS_PKG_SHA256=8aa8d1e5772a169098f0aba6e647295c12561a6851ef9b378a54020e8086bcc6
+MCHS_PKG_BUILD_IN_SRC=true

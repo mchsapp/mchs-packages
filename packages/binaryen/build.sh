@@ -1,0 +1,9 @@
+MCHS_PKG_HOMEPAGE=https://github.com/WebAssembly/binaryen
+MCHS_PKG_DESCRIPTION="Binaryen is a compiler and toolchain infrastructure library for WebAssembly"
+MCHS_PKG_LICENSE="Apache-2.0"
+MCHS_PKG_MAINTAINER="@mchs"
+MCHS_PKG_VERSION=105
+MCHS_PKG_SRCURL=https://github.com/WebAssembly/binaryen/archive/version_${MCHS_PKG_VERSION}.tar.gz
+MCHS_PKG_SHA256=c5ec27c157d3b33ce4360607cc6afe565fa490094237895db2162b3a7d667da2
+MCHS_PKG_AUTO_UPDATE=true
+MCHS_PKG_AUTO_UPDATE_TAG_REGEXP="\d+"

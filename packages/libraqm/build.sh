@@ -1,0 +1,9 @@
+MCHS_PKG_HOMEPAGE=https://github.com/HOST-Oman/libraqm
+MCHS_PKG_DESCRIPTION="Raqm is a small library that encapsulates the logic for complex text layout and provides a convenient API."
+MCHS_PKG_LICENSE="MIT"
+MCHS_PKG_MAINTAINER="@mchs"
+MCHS_PKG_VERSION=0.9.0
+MCHS_PKG_SRCURL=https://github.com/HOST-Oman/libraqm/releases/download/v$MCHS_PKG_VERSION/raqm-$MCHS_PKG_VERSION.tar.xz
+MCHS_PKG_SHA256=9ed6fdf41da6391fc9bf7038662cbe412c330aa6eb22b19704af2258e448107c
+MCHS_PKG_AUTO_UPDATE=true
+MCHS_PKG_DEPENDS="freetype, harfbuzz, fribidi"

@@ -1,0 +1,13 @@
+MCHS_PKG_HOMEPAGE=https://geos.osgeo.org/
+MCHS_PKG_DESCRIPTION="Geometry Engine, C++ port of the Java Topology Suite"
+MCHS_PKG_LICENSE="LGPL-2.1"
+MCHS_PKG_MAINTAINER="Henrik Grimler @Grimler91"
+MCHS_PKG_VERSION=3.10.1
+MCHS_PKG_REVISION=1
+MCHS_PKG_SRCURL=https://github.com/libgeos/geos/archive/${MCHS_PKG_VERSION}.tar.gz
+MCHS_PKG_SHA256=15180d727df60ea2e61ece6273feaa3b2a4554db0a447bf6923054df676c78c0
+MCHS_PKG_DEPENDS="libc++"
+MCHS_PKG_BREAKS="libgeos-dev"
+MCHS_PKG_REPLACES="libgeos-dev"
+MCHS_PKG_GROUPS="science"
+MCHS_PKG_FORCE_CMAKE=true

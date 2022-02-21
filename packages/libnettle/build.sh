@@ -1,0 +1,10 @@
+MCHS_PKG_HOMEPAGE=https://www.lysator.liu.se/~nisse/nettle/
+MCHS_PKG_DESCRIPTION="Cryptographic library that is designed to fit easily in more or less any context"
+MCHS_PKG_LICENSE="GPL-2.0"
+MCHS_PKG_MAINTAINER="@mchs"
+MCHS_PKG_VERSION=3.7.3
+MCHS_PKG_SRCURL=https://mirrors.kernel.org/gnu/nettle/nettle-${MCHS_PKG_VERSION}.tar.gz
+MCHS_PKG_SHA256=661f5eb03f048a3b924c3a8ad2515d4068e40f67e774e8a26827658007e3bcf0
+MCHS_PKG_DEPENDS="libgmp"
+MCHS_PKG_BREAKS="libnettle-dev"
+MCHS_PKG_REPLACES="libnettle-dev"

@@ -1,0 +1,9 @@
+MCHS_PKG_HOMEPAGE=http://byobu.co/
+MCHS_PKG_DESCRIPTION="Byobu is a GPLv3 open source text-based window manager and terminal multiplexer"
+MCHS_PKG_LICENSE="GPL-3.0"
+MCHS_PKG_MAINTAINER="@mchs"
+MCHS_PKG_VERSION=5.133
+MCHS_PKG_SRCURL=https://launchpad.net/byobu/trunk/${MCHS_PKG_VERSION}/+download/byobu_${MCHS_PKG_VERSION}.orig.tar.gz
+MCHS_PKG_SHA256=4d8ea48f8c059e56f7174df89b04a08c32286bae5a21562c5c6f61be6dab7563
+MCHS_PKG_DEPENDS="gawk, tmux"
+MCHS_PKG_PLATFORM_INDEPENDENT=true

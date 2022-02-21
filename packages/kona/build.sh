@@ -1,0 +1,10 @@
+MCHS_PKG_HOMEPAGE=https://github.com/kevinlawler/kona
+MCHS_PKG_DESCRIPTION="Open-source implementation of the APL-like K programming language"
+MCHS_PKG_LICENSE="ISC"
+MCHS_PKG_MAINTAINER="@mchs"
+MCHS_PKG_VERSION=20211225
+MCHS_PKG_SRCURL=https://github.com/kevinlawler/kona/archive/Win64-${MCHS_PKG_VERSION}.tar.gz
+MCHS_PKG_SHA256=cd5dcc03394af275f0416b3cb2914574bf51ec60d1c857020fbd34b5427c5faf
+MCHS_PKG_AUTO_UPDATE=true
+MCHS_PKG_AUTO_UPDATE_TAG_REGEXP="\d{8}"
+MCHS_PKG_BUILD_IN_SRC=true

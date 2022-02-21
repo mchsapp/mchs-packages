@@ -1,0 +1,10 @@
+MCHS_PKG_HOMEPAGE=https://zeroflux.org/projects/knock
+MCHS_PKG_DESCRIPTION="A port-knocking daemon"
+MCHS_PKG_LICENSE="GPL-2.0"
+MCHS_PKG_MAINTAINER="@mchs"
+MCHS_PKG_VERSION=0.8
+MCHS_PKG_REVISION=1
+MCHS_PKG_SRCURL=https://www.zeroflux.org/proj/knock/files/knock-${MCHS_PKG_VERSION}.tar.gz
+MCHS_PKG_SHA256=698d8c965624ea2ecb1e3df4524ed05afe387f6d20ded1e8a231209ad48169c7
+MCHS_PKG_DEPENDS="libpcap"
+MCHS_PKG_BUILD_IN_SRC=true

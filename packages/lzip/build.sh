@@ -1,0 +1,9 @@
+MCHS_PKG_HOMEPAGE=https://www.nongnu.org/lzip/
+MCHS_PKG_DESCRIPTION="Lossless data compressor similar to gzip and bzip2"
+MCHS_PKG_LICENSE="GPL-3.0"
+MCHS_PKG_MAINTAINER="@mchs"
+MCHS_PKG_VERSION=1.22
+MCHS_PKG_REVISION=1
+MCHS_PKG_SRCURL=https://download.savannah.gnu.org/releases/lzip/lzip-${MCHS_PKG_VERSION}.tar.lz
+MCHS_PKG_SHA256=8fddf17bdca6bd4694c6015424d3162f14e7c1599373601aa3316a92ca1b5042
+MCHS_PKG_DEPENDS="libc++"

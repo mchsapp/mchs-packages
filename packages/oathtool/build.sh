@@ -1,0 +1,11 @@
+MCHS_PKG_HOMEPAGE=http://www.nongnu.org/oath-toolkit/
+MCHS_PKG_DESCRIPTION="One-time password components"
+MCHS_PKG_LICENSE="GPL-3.0"
+MCHS_PKG_MAINTAINER="@mchs"
+MCHS_PKG_VERSION=2.6.7
+MCHS_PKG_SRCURL=http://download.savannah.nongnu.org/releases/oath-toolkit/oath-toolkit-$MCHS_PKG_VERSION.tar.gz
+MCHS_PKG_SHA256=36eddfce8f2f36347fb257dbf878ba0303a2eaafe24eaa071d5cd302261046a9
+MCHS_PKG_DEPENDS="xmlsec, zlib"
+MCHS_PKG_BREAKS="oathtool-dev"
+MCHS_PKG_REPLACES="oathtool-dev"
+MCHS_PKG_EXTRA_CONFIGURE_ARGS="--disable-pam"

@@ -1,0 +1,11 @@
+MCHS_PKG_HOMEPAGE=https://github.com/dstosberg/odt2txt
+MCHS_PKG_DESCRIPTION="Simple converter from OpenDocument Text to plain text"
+MCHS_PKG_LICENSE="GPL-2.0"
+MCHS_PKG_MAINTAINER="@mchs"
+MCHS_PKG_VERSION=0.5
+MCHS_PKG_REVISION=4
+MCHS_PKG_SRCURL=https://github.com/dstosberg/odt2txt/archive/v$MCHS_PKG_VERSION.tar.gz
+MCHS_PKG_SHA256=23a889109ca9087a719c638758f14cc3b867a5dcf30a6c90bf6a0985073556dd
+MCHS_PKG_DEPENDS="libiconv, libzip, zlib"
+MCHS_PKG_BUILD_IN_SRC=true
+MCHS_PKG_EXTRA_MAKE_ARGS="HAVE_LIBZIP=1 DESTDIR=$MCHS_PREFIX"
