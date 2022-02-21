@@ -72,7 +72,7 @@ while read -r PKG PKG_DIR; do
 
 	printf "\033[0;34m[McHs]:\033[0m Building \033[0;32m$PKG\033[0m"
 	BUILD_START=$(date "+%s")
-	bash -x "$BUILDSCRIPT" -a "$MCHS_ARCH" $MCHS_DEBUG_BUILD \
+	bash -x "$BUILDSCRIPT" -a "$MCHS_ARCH" -s $MCHS_DEBUG_BUILD \
 		${MCHS_OUTPUT_DIR+-o $MCHS_OUTPUT_DIR} $MCHS_INSTALL_DEPS "$PKG_DIR" \
 		> "$BUILDALL_DIR"/"${PKG}".out 2> "$BUILDALL_DIR"/"${PKG}".err
 	BUILD_END=$(date "+%s")
