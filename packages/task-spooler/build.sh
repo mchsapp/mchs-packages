@@ -1,0 +1,9 @@
+MCHS_PKG_HOMEPAGE=https://vicerveza.homeunix.net/~viric/soft/ts/
+MCHS_PKG_DESCRIPTION="Task spooler is a Unix batch system where the tasks spooled run one after the other"
+MCHS_PKG_LICENSE="GPL-2.0"
+MCHS_PKG_MAINTAINER="@mchs"
+MCHS_PKG_VERSION=1.0.1
+MCHS_PKG_SRCURL=https://vicerveza.homeunix.net/~viric/soft/ts/ts-${MCHS_PKG_VERSION}.tar.gz
+MCHS_PKG_SHA256=f41ef307b0b9c7424398813b9c6e39d37a970831071e301842ba4b1145d56278
+MCHS_PKG_CONFLICTS="moreutils"
+MCHS_PKG_BUILD_IN_SRC=true

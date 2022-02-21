@@ -1,0 +1,42 @@
+#!/bin/sh
+
+if [ $# = 0 ] && [ -f @MCHS_PREFIX@/etc/motd ] && [ ! -f ~/.hushlogin ] && [ -z "$MCHS_HUSHLOGIN" ]; then
+	cat @MCHS_PREFIX@/etc/motd
+else
+	# This variable shouldn't be kept set.
+	unset MCHS_HUSHLOGIN
+fi
+
+# MCHS_VERSION env variable has been exported since v0.107 and PATH was being set to following value in <0.104. Last playstore version was v0.101.
+if [ $# = 0 ] && [ -f @MCHS_PREFIX@/etc/motd-playstore ] && [ -z "$MCHS_VERSION" ] && [ "$PATH" = "@MCHS_PREFIX@/bin:@MCHS_PREFIX@/bin/applets" ]; then
+	printf '\033[0;31m'; cat @MCHS_PREFIX@/etc/motd-playstore; printf '\033[0m'
+fi
+
+if [ -G ~/.mchs/shell ]; then
+	export SHELL="`realpath ~/.mchs/shell`"
+else
+	for file in @MCHS_PREFIX@/bin/bash @MCHS_PREFIX@/bin/sh /system/bin/sh; do
+		if [ -x $file ]; then
+			export SHELL=$file
+			break
+		fi
+	done
+fi
+
+# for the correct operation of scripts that work with the package manager
+export MCHS_MAIN_PACKAGE_FORMAT="@MCHS_PACKAGE_FORMAT@"
+
+if [ -f @MCHS_PREFIX@/lib/libmchs-exec.so ]; then
+	export LD_PRELOAD=@MCHS_PREFIX@/lib/libmchs-exec.so
+	$SHELL -c "coreutils --coreutils-prog=true" > /dev/null 2>&1 || unset LD_PRELOAD
+fi
+
+if [ -f @MCHS_PREFIX@/etc/mchs-login.sh ]; then
+	. @MCHS_PREFIX@/etc/mchs-login.sh
+fi
+
+if [ -n "$TERM" ]; then
+	exec "$SHELL" -l "$@"
+else
+	exec "$SHELL" "$@"
+fi

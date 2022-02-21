@@ -1,0 +1,10 @@
+MCHS_PKG_HOMEPAGE=https://github.com/mchs/mchs-exec
+MCHS_PKG_DESCRIPTION="An execve() wrapper to make /bin and /usr/bin shebangs work"
+MCHS_PKG_LICENSE="Apache-2.0"
+MCHS_PKG_MAINTAINER="@mchs"
+MCHS_PKG_VERSION=1:0.9
+MCHS_PKG_SRCURL=https://github.com/mchs/mchs-exec/archive/v${MCHS_PKG_VERSION:2}.tar.gz
+MCHS_PKG_SHA256=a6e1d3449f9ac80041dfbfac430763995c84a29c7e9930fbb0130f925b0836e2
+MCHS_PKG_ESSENTIAL=true
+MCHS_PKG_BUILD_IN_SRC=true
+MCHS_PKG_EXTRA_MAKE_ARGS="MCHS_PREFIX=${MCHS_PREFIX} MCHS_BASE_DIR=${MCHS_BASE_DIR}"

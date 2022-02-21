@@ -1,0 +1,9 @@
+MCHS_PKG_HOMEPAGE=https://www.gnu.org/software/wdiff/
+MCHS_PKG_DESCRIPTION="Display word differences between text files"
+MCHS_PKG_LICENSE="GPL-3.0"
+MCHS_PKG_MAINTAINER="@harieamjari"
+MCHS_PKG_VERSION=1.2.2
+#MCHS_PKG_SRCURL=http://ftp.gnu.org/gnu/wdiff/wdiff-${MCHS_PKG_VERSION}.tar.gz
+MCHS_PKG_SRCURL=https://fossies.org/linux/misc/wdiff-${MCHS_PKG_VERSION}.tar.gz
+MCHS_PKG_SHA256=34ff698c870c87e6e47a838eeaaae729fa73349139fc8db12211d2a22b78af6b
+MCHS_PKG_DEPENDS="libiconv"

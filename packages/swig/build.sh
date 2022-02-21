@@ -1,0 +1,10 @@
+MCHS_PKG_HOMEPAGE=http://swig.org
+MCHS_PKG_DESCRIPTION="Generate scripting interfaces to C/C++ code"
+MCHS_PKG_LICENSE="GPL-3.0"
+MCHS_PKG_MAINTAINER="@mchs"
+MCHS_PKG_VERSION=4.0.2
+MCHS_PKG_REVISION=1
+MCHS_PKG_SRCURL=http://downloads.sourceforge.net/swig/swig-$MCHS_PKG_VERSION.tar.gz
+MCHS_PKG_SHA256=d53be9730d8d58a16bf0cbd1f8ac0c0c3e1090573168bfa151b01eb47fa906fc
+MCHS_PKG_DEPENDS="libc++, pcre, zlib"
+MCHS_PKG_BUILD_IN_SRC=true

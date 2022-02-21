@@ -1,0 +1,9 @@
+MCHS_PKG_HOMEPAGE=https://wiki.mchs.com/wiki/McHs:API
+MCHS_PKG_DESCRIPTION="McHs API commands (install also the McHs:API app)"
+MCHS_PKG_LICENSE="MIT"
+MCHS_PKG_MAINTAINER="@mchs"
+MCHS_PKG_VERSION=0.57
+MCHS_PKG_SRCURL=https://github.com/mchs/mchs-api-package/archive/v${MCHS_PKG_VERSION}.tar.gz
+MCHS_PKG_SHA256=229c354f56a2dae66ee32ea71d5f89acf69a127aacb1194adfd8b3709c9c93f0
+MCHS_PKG_BUILD_IN_SRC=true
+MCHS_PKG_DEPENDS="bash, util-linux"

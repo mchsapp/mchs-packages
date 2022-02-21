@@ -1,0 +1,11 @@
+MCHS_PKG_HOMEPAGE=https://invisible-island.net/vile/
+MCHS_PKG_DESCRIPTION="VI Like Emacs - vi work-alike"
+MCHS_PKG_LICENSE="custom"
+MCHS_PKG_LICENSE_FILE="COPYING"
+MCHS_PKG_MAINTAINER="@mchs"
+MCHS_PKG_VERSION="9.8u"
+MCHS_PKG_SRCURL="ftp://ftp.invisible-island.net/vile/current/vile-$MCHS_PKG_VERSION.tgz"
+MCHS_PKG_SHA256=31a82833fe4fef5a60043bcc3278d1a875a1028b1b2577c9e0fa3a179cff165e
+MCHS_PKG_DEPENDS="ncurses"
+MCHS_PKG_BUILD_IN_SRC=true
+MCHS_PKG_EXTRA_CONFIGURE_ARGS="--disable-stripping"

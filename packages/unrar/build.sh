@@ -1,0 +1,11 @@
+MCHS_PKG_HOMEPAGE=https://www.rarlab.com/
+MCHS_PKG_DESCRIPTION="Tool for extracting files from .rar archives"
+MCHS_PKG_LICENSE="non-free"
+MCHS_PKG_LICENSE_FILE="license.txt"
+MCHS_PKG_MAINTAINER="@mchs"
+MCHS_PKG_VERSION=6.1.2
+MCHS_PKG_REVISION=1
+MCHS_PKG_SRCURL=https://www.rarlab.com/rar/unrarsrc-${MCHS_PKG_VERSION}.tar.gz
+MCHS_PKG_SHA256=3e96421f568e438af6dcdaef717c48eb93b825d97058ebcb173b9bfc57807be3
+MCHS_PKG_DEPENDS="libandroid-support, libc++"
+MCHS_PKG_BUILD_IN_SRC=true

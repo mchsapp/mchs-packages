@@ -1,0 +1,10 @@
+MCHS_PKG_HOMEPAGE=https://github.com/fornwall/vtutils
+MCHS_PKG_DESCRIPTION="Utilities for testing and working with virtual terminals"
+MCHS_PKG_LICENSE="Apache-2.0"
+MCHS_PKG_MAINTAINER="@mchs"
+MCHS_PKG_VERSION=0.5
+MCHS_PKG_REVISION=3
+MCHS_PKG_SRCURL=https://github.com/fornwall/vtutils/releases/download/v$MCHS_PKG_VERSION/vtutils-$MCHS_PKG_VERSION.tar.gz
+MCHS_PKG_SHA256=ef0b11f9570697f53bcda7a61093f8d472afee2c8551b5b35e9b5b7c1539c2c6
+MCHS_PKG_AUTO_UPDATE=true
+MCHS_PKG_DEPENDS="libc++"

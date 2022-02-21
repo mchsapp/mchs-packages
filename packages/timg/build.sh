@@ -1,0 +1,17 @@
+MCHS_PKG_HOMEPAGE=https://timg.sh/
+MCHS_PKG_DESCRIPTION="A terminal image and video viewer"
+MCHS_PKG_LICENSE="GPL-2.0"
+MCHS_PKG_MAINTAINER="@mchs"
+MCHS_PKG_VERSION=1.4.2
+MCHS_PKG_REVISION=5
+MCHS_PKG_SRCURL=https://github.com/hzeller/timg/archive/24d7727a4ba44b32fcdfb8e21fc258a4638fbbfe.tar.gz
+MCHS_PKG_SHA256=5fe2a0f68dacfe367cc82ed5c3a21a9c1455ae78df1acedb7c02ed27ef502833
+MCHS_PKG_DEPENDS="ffmpeg, graphicsmagick, libc++, libjpeg-turbo, libexif, zlib"
+
+MCHS_PKG_EXTRA_CONFIGURE_ARGS="
+-DWITH_VIDEO_DECODING=on
+-DWITH_OPENSLIDE_SUPPORT=off
+-DWITH_GRAPHICSMAGICK=on
+-DWITH_TURBOJPEG=on
+-DWITH_STB_IMAGE=off
+"

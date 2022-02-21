@@ -1,0 +1,9 @@
+MCHS_PKG_HOMEPAGE=http://zsync.moria.org.uk/
+MCHS_PKG_DESCRIPTION="A file transfer program to download files from remote web servers"
+MCHS_PKG_LICENSE="Artistic-License-2.0"
+MCHS_PKG_MAINTAINER="@mchs"
+MCHS_PKG_VERSION=0.6.2
+MCHS_PKG_REVISION=5
+MCHS_PKG_SRCURL=http://zsync.moria.org.uk/download/zsync-$MCHS_PKG_VERSION.tar.bz2
+MCHS_PKG_SHA256=0b9d53433387aa4f04634a6c63a5efa8203070f2298af72a705f9be3dda65af2
+MCHS_PKG_BUILD_IN_SRC=true

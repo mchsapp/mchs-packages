@@ -1,0 +1,9 @@
+MCHS_PKG_HOMEPAGE=https://www.tcsh.org
+MCHS_PKG_DESCRIPTION="TENEX C Shell, an enhanced version of Berkeley csh"
+MCHS_PKG_LICENSE="BSD 3-Clause"
+MCHS_PKG_MAINTAINER="@mchs"
+MCHS_PKG_VERSION=6.23.01
+MCHS_PKG_SRCURL=https://github.com/tcsh-org/tcsh/archive/TCSH${MCHS_PKG_VERSION//./_}.tar.gz
+MCHS_PKG_SHA256=0f97e27e306206d57503b7da48801791a0ed6cbaa6c3ab0c1cf46608ea4ccb54
+MCHS_PKG_DEPENDS="ncurses, libcrypt, libiconv"
+MCHS_PKG_EXTRA_CONFIGURE_ARGS="--enable-nls --disable-nls-catalogs"

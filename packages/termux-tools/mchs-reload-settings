@@ -1,0 +1,12 @@
+#!/bin/sh
+
+if [ "$#" != "0" ]; then
+	echo 'usage: mchs-reload-settings'
+	echo 'Use without arguments to reload settings after modifying any of:'
+	echo '  ~/.mchs/colors.properties'
+	echo '  ~/.mchs/font.ttf '
+	echo '  ~/.mchs/mchs.properties'
+	exit
+fi
+
+am broadcast --user 0 -a com.mchs.app.reload_style com.mchs > /dev/null

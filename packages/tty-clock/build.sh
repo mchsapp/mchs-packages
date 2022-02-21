@@ -1,0 +1,10 @@
+MCHS_PKG_HOMEPAGE=https://github.com/xorg62/tty-clock
+MCHS_PKG_DESCRIPTION="Simple terminal clock"
+MCHS_PKG_LICENSE="BSD 3-Clause"
+MCHS_PKG_VERSION=2.3
+MCHS_PKG_REVISION=1
+MCHS_PKG_MAINTAINER="Oliver Schmidhauser @Neo-Oli"
+MCHS_PKG_SRCURL=https://github.com/xorg62/tty-clock/archive/v${MCHS_PKG_VERSION}.tar.gz
+MCHS_PKG_SHA256=343e119858db7d5622a545e15a3bbfde65c107440700b62f9df0926db8f57984
+MCHS_PKG_DEPENDS="ncurses"
+MCHS_PKG_BUILD_IN_SRC=true

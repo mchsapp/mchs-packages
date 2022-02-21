@@ -1,0 +1,9 @@
+MCHS_PKG_HOMEPAGE=https://xmake.io/
+MCHS_PKG_DESCRIPTION="A cross-platform build utility based on Lua"
+MCHS_PKG_LICENSE="Apache-2.0"
+MCHS_PKG_MAINTAINER="Ruki Wang @waruqi"
+MCHS_PKG_VERSION=2.6.3
+MCHS_PKG_SRCURL=https://github.com/xmake-io/xmake/releases/download/v${MCHS_PKG_VERSION}/xmake-v${MCHS_PKG_VERSION}.tar.gz
+MCHS_PKG_SHA256=43c739b8faa3be986f95421c7ba1e135ff18d4723fb88b7e0bb0cdd27ef37430
+MCHS_PKG_AUTO_UPDATE=true
+MCHS_PKG_BUILD_IN_SRC=true

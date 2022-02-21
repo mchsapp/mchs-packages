@@ -1,0 +1,10 @@
+MCHS_PKG_HOMEPAGE=http://caca.zoy.org/wiki/toilet
+MCHS_PKG_DESCRIPTION="FIGlet-compatible display of large colourful characters in text mode"
+MCHS_PKG_LICENSE="WTFPL"
+MCHS_PKG_MAINTAINER="@mchs"
+MCHS_PKG_VERSION=0.3
+MCHS_PKG_REVISION=1
+MCHS_PKG_SRCURL=http://fossies.org/linux/privat/toilet-${MCHS_PKG_VERSION}.tar.gz
+MCHS_PKG_SHA256=89d4b530c394313cc3f3a4e07a7394fa82a6091f44df44dfcd0ebcb3300a81de
+MCHS_PKG_DEPENDS="libcaca"
+MCHS_PKG_BUILD_IN_SRC=true

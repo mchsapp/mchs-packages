@@ -1,0 +1,10 @@
+MCHS_PKG_HOMEPAGE=https://github.com/mchs/mchs-services/
+MCHS_PKG_DESCRIPTION="Service daemon for McHs"
+MCHS_PKG_LICENSE="GPL-3.0"
+MCHS_PKG_MAINTAINER="Henrik Grimler @Grimler91"
+MCHS_PKG_VERSION=0.13
+MCHS_PKG_SRCURL=https://github.com/mchs/mchs-services/archive/${MCHS_PKG_VERSION}.tar.gz
+MCHS_PKG_SHA256=486a2b21332e0557764c706e6d01a33af54425ee4ac9cc3d3e74ee574799ffb9
+MCHS_PKG_DEPENDS="runit, coreutils"
+MCHS_PKG_PLATFORM_INDEPENDENT=true
+MCHS_PKG_BUILD_IN_SRC=true

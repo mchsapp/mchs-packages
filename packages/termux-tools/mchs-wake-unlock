@@ -1,0 +1,13 @@
+#!/bin/sh
+
+if [ $# != 0 ]; then
+	echo 'usage: mchs-wake-unlock'
+	echo 'Release the McHs wake lock to allow the CPU to sleep.'
+	exit 1
+fi
+
+am startservice \
+	--user 0 \
+	-a com.mchs.service_wake_unlock \
+	com.mchs/com.mchs.app.McHsService \
+	> /dev/null

@@ -1,0 +1,175 @@
+#!@MCHS_PREFIX@/bin/bash
+
+if [ "$1" == "--help" ] || [ "$1" == "-help" ]; then
+    echo "Script for redirecting subscribed repositories to mirrors."
+    echo "You can choose between mirrors listed at"
+    echo "https://github.com/mchs/mchs-packages/wiki/Mirrors"
+    exit 0
+fi
+
+select_repository() {
+    if [ "$1" == "Default repositories" ]; then
+        echo "[*] McHs primary host (EU) selected"
+        MAIN="https://packages.mchs.org/apt/mchs-main"
+        ROOT="https://packages.mchs.org/apt/mchs-root"
+        X11="https://packages.mchs.org/apt/mchs-x11"
+
+    elif [ "$1" == "Default repositories (CF)" ]; then
+        echo "[*] McHs primary host (worldwide) selected"
+        MAIN="https://packages-cf.mchs.org/apt/mchs-main"
+        ROOT="https://packages-cf.mchs.org/apt/mchs-root"
+        X11="https://packages-cf.mchs.org/apt/mchs-x11"
+
+    elif [ "$1" == "GH Mirrors by Kcubeterm" ]; then
+        echo "[*] GH mirrors selected"
+        MAIN="https://dl.kcubeterm.com/mchs-main"
+        ROOT="https://dl.kcubeterm.com/mchs-root"
+        X11="https://dl.kcubeterm.com/mchs-x11"
+
+    elif [ "$1" == "Mirrors by A1batross" ]; then
+        echo "[*] A1batross mirrors selected"
+        MAIN="https://mchs.mentality.rip/mchs-main"
+        ROOT="https://mchs.mentality.rip/mchs-root"
+        X11="https://mchs.mentality.rip/mchs-x11"
+
+    elif [ "$1" == "Mirrors by Astra ISP" ]; then
+        echo "[*] Astra ISP (UA) mirrors selected"
+        MAIN="https://mchs.astra.in.ua/apt/mchs-main"
+        ROOT="https://mchs.astra.in.ua/apt/mchs-root"
+        X11="https://mchs.astra.in.ua/apt/mchs-x11"
+
+    elif [ "$1" == "Mirrors by Bardia Moshiri" ]; then
+        echo "[*] Bardia Moshiri (Iran) mirrors selected"
+        MAIN="https://mirror.bardia.tech/mchs/mchs-packages-24/"
+        ROOT="https://mirror.bardia.tech/mchs/mchs-root-packages-24/"
+        X11="https://mirror.bardia.tech/mchs/x11-packages/"
+
+    elif [ "$1" == "Mirrors by Grimler" ]; then
+        echo "[*] Grimler's (NL) mirrors selected"
+        MAIN="https://grimler.se/mchs-packages-24"
+        ROOT="https://grimler.se/mchs-root-packages-24"
+        X11="https://grimler.se/x11-packages"
+
+    elif [ "$1" == "Mirrors by Librehat" ]; then
+        echo "[*] Librehat's mirrors selected"
+        MAIN="https://mchs.librehat.com/apt/mchs-main"
+        ROOT="https://mchs.librehat.com/apt/mchs-root"
+        X11="https://mchs.librehat.com/apt/mchs-x11"
+
+    elif [ "$1" == "Mirrors by Mwt" ]; then
+        echo "[*] Mwt's (USA) mirrors selected"
+        MAIN="https://mirror.mwt.me/mchs/main"
+        ROOT="https://mirror.mwt.me/mchs/root"
+        X11="https://mirror.mwt.me/mchs/x11"
+
+    elif [ "$1" == "Mirrors by Sahilister" ]; then
+        echo "[*] Sahilister's (DE) mirrors selected"
+        MAIN="https://mchs.sahilister.in/apt/mchs-main"
+        ROOT="https://mchs.sahilister.in/apt/mchs-root"
+        X11="https://mchs.sahilister.in/apt/mchs-x11"
+
+    elif [ "$1" == "Mirrors by Tsinghua University" ]; then
+        echo "[*] Tsinghua's (CN) mirrors selected"
+        MAIN="https://mirrors.tuna.tsinghua.edu.cn/mchs/apt/mchs-main"
+        ROOT="https://mirrors.tuna.tsinghua.edu.cn/mchs/apt/mchs-root"
+        X11="https://mirrors.tuna.tsinghua.edu.cn/mchs/apt/mchs-x11"
+
+    elif [ "$1" == "Mirrors by BFSU" ]; then
+        echo "[*] BFSU (CN) mirrors selected"
+        MAIN="https://mirrors.bfsu.edu.cn/mchs/apt/mchs-main"
+        ROOT="https://mirrors.bfsu.edu.cn/mchs/apt/mchs-root"
+        X11="https://mirrors.bfsu.edu.cn/mchs/apt/mchs-x11"
+
+    elif [ "$1" == "Mirrors by NJU" ]; then
+        echo "[*] NJU (CN) mirrors selected"
+        MAIN="https://mirror.nju.edu.cn/mchs/apt/mchs-main"
+        ROOT="https://mirror.nju.edu.cn/mchs/apt/mchs-root"
+        X11="https://mirror.nju.edu.cn/mchs/apt/mchs-x11"
+
+    elif [ "$1" == "Mirrors by USTC" ]; then
+        echo "[*] USTC (CN) mirrors selected"
+        MAIN="https://mirrors.ustc.edu.cn/mchs/apt/mchs-main"
+        ROOT="https://mirrors.ustc.edu.cn/mchs/apt/mchs-root"
+        X11="https://mirrors.ustc.edu.cn/mchs/apt/mchs-x11"
+
+    else
+        echo "[!] Error: unknown repository: '$1'. Exiting"
+        exit 1
+    fi
+
+    replace_repository sources.list $MAIN "stable main" "$2" "Main repository"
+    replace_repository sources.list.d/root.list $ROOT "root stable" "$2" "Root repository"
+    replace_repository sources.list.d/x11.list $X11 "x11 main" "$2" "X11 repository"
+}
+
+replace_repository() {
+    if [[ "$4" == *"$5"* ]]; then
+        SOURCE_FILE="$1"
+        NEW_URL="$2"
+        COMPONENT_SUITE="$3"
+
+        TMPFILE="$(mktemp $TMPDIR/$(basename ${SOURCE_FILE}).XXXXXX)"
+        if [ "$1" == "sources.list" ]; then
+            echo "# The main mchs repository:" >> "$TMPFILE"
+        fi
+        echo "deb ${NEW_URL} ${COMPONENT_SUITE}" >> "$TMPFILE"
+        echo "    Changing ${5,,}" #${,,} converts to lower case
+        mv "$TMPFILE" "@MCHS_PREFIX@/etc/apt/${SOURCE_FILE}"
+    fi
+}
+
+TEMPFILE="$(mktemp @MCHS_PREFIX@/tmp/mirror.XXXXXX)"
+
+REPOSITORIES=()
+REPOSITORIES+=("Main repository" "mchs-packages" "on")
+if [ -f "@MCHS_PREFIX@/etc/apt/sources.list.d/root.list" ]; then
+    REPOSITORIES+=("Root repository" "mchs-root-packages" "off")
+fi
+if [ -f "@MCHS_PREFIX@/etc/apt/sources.list.d/x11.list" ]; then
+    REPOSITORIES+=("X11 repository" "x11-packages" "off")
+fi
+
+dialog \
+    --title "mchs-change-repo" --clear \
+    --checklist "Which repositories do you want to edit? Select with space." 0 0 0 \
+    "${REPOSITORIES[@]}" --and-widget \
+    --title "mchs-change-repo" --clear \
+    --radiolist "Which mirror do you want to use?" 0 0 0 \
+    "Default repositories" "Default host" on \
+    "Default repositories (CF)" "Default host with CloudFlare endpoint" on \
+    "GH Mirrors by Kcubeterm" "Hosted on Github Release" off \
+    "Mirrors by A1batross" "Hosted on mchs.mentality.rip" off \
+    "Mirrors by Astra ISP" "Hosted on mchs.astra.in.ua" off \
+    "Mirrors by Bardia Moshiri" "Hosted on mirror.bardia.tech" off \
+    "Mirrors by Grimler" "Hosted on grimler.se" off \
+    "Mirrors by Librehat" "Hosted on mchs.librehat.com" off \
+    "Mirrors by Mwt" "Hosted on mirror.mwt.me" off \
+    "Mirrors by Sahilister" "Hosted on mchs.sahilister.in" off \
+    "Mirrors by Tsinghua University" "Hosted on mirrors.tuna.tsinghua.edu.cn" off \
+    "Mirrors by BFSU" "Hosted on mirrors.bfsu.edu.cn" off \
+    "Mirrors by NJU" "Hosted on mirror.nju.edu.cn" off \
+    "Mirrors by USTC" "Hosted on mirrors.ustc.edu.cn" off \
+    2> "$TEMPFILE"
+
+retval=$?
+clear
+
+case $retval in
+    0)
+        IFS=$'\t' read REPOSITORIES MIRROR <<< "$(more $TEMPFILE)"
+        select_repository "$MIRROR" "$REPOSITORIES"
+        ;;
+    1)
+        # Cancel pressed
+        exit
+        ;;
+    255)
+        # Esc pressed
+        exit
+        ;;
+esac
+
+rm "$TEMPFILE"
+
+echo "[*] Running apt update"
+apt update

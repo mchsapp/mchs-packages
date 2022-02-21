@@ -1,0 +1,9 @@
+MCHS_PKG_HOMEPAGE=https://cyan4973.github.io/xxHash/
+MCHS_PKG_DESCRIPTION="Extremely fast non-cryptographic hash algorithm"
+MCHS_PKG_LICENSE="BSD, GPL-2.0"
+MCHS_PKG_MAINTAINER="@mchs"
+MCHS_PKG_VERSION=0.8.1
+MCHS_PKG_SRCURL=https://github.com/Cyan4973/xxHash/archive/v${MCHS_PKG_VERSION}.tar.gz
+MCHS_PKG_SHA256=3bb6b7d6f30c591dd65aaaff1c8b7a5b94d81687998ca9400082c739a690436c
+MCHS_PKG_AUTO_UPDATE=true
+MCHS_PKG_BUILD_IN_SRC=true

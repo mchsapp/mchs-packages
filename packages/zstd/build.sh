@@ -1,0 +1,12 @@
+MCHS_PKG_HOMEPAGE=https://github.com/facebook/zstd
+MCHS_PKG_DESCRIPTION="Zstandard compression."
+MCHS_PKG_LICENSE="GPL-2.0"
+MCHS_PKG_MAINTAINER="@mchs"
+MCHS_PKG_VERSION=1.5.2
+MCHS_PKG_SRCURL=https://github.com/facebook/zstd/archive/v$MCHS_PKG_VERSION.tar.gz
+MCHS_PKG_SHA256=f7de13462f7a82c29ab865820149e778cbfe01087b3a55b5332707abf9db4a6e
+MCHS_PKG_AUTO_UPDATE=true
+MCHS_PKG_DEPENDS="liblzma, zlib"
+MCHS_PKG_BREAKS="zstd-dev"
+MCHS_PKG_REPLACES="zstd-dev"
+MCHS_PKG_BUILD_IN_SRC=true
